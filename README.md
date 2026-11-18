@@ -4,7 +4,7 @@ An eight-page Streamlit dashboard for aggregate analysis of representation, recr
 
 ## Requirements and setup
 
-The project’s supported baseline is Python 3.12. Dependency pins were checked for Windows CPython 3.12 wheels. The available verification environment was Python 3.14.6; the complete suite passed there. Python 3.12 itself was not available for the recorded run.
+The project’s documented local baseline is Python 3.12. Dependency pins were checked for Windows CPython 3.12 wheels. The available local verification environment was Python 3.14.6; the complete suite passed there. Streamlit Community Cloud deployed successfully using Python 3.14.10 with the pinned requirements.
 
 ```powershell
 py -3.12 -m venv .venv
@@ -67,6 +67,7 @@ All patterns are designed synthetic examples, not findings about a real organiza
 
 ## Test and deployment status
 
-Latest recorded run: **78 passed in 17.73 seconds** using Python 3.14.6. All eight pages render under Streamlit AppTest. Detailed manual browser scenarios remain marked Not run in `docs/13_Test_Cases.docx`.
+Latest recorded run: **78 passed in 18.03 seconds** using Python 3.14.6. All eight pages render under Streamlit AppTest. Detailed manual browser scenarios remain marked Not run in `docs/13_Test_Cases.docx`.
 
-The public GitHub destination was supplied, but this local repository has not been pushed. The project documents contain student identifiers, so public disclosure has not been approved. No Streamlit Community Cloud URL is available yet.
+The public repository is [divanshjain4-lang/hclorignalproject](https://github.com/divanshjain4-lang/hclorignalproject). The Streamlit Community Cloud app is live at [2500320140050-gender-diversity-analysis.streamlit.app](https://2500320140050-gender-diversity-analysis.streamlit.app/). Cloud installed the pinned dependencies under Python 3.14.10. The overview, EDA & Statistics, and Data Quality screens were smoke-checked in the hosted app; local AppTest covers all eight pages. The remaining manual browser scenarios are still marked Not run.
+
