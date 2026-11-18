@@ -1,0 +1,6 @@
+{
+  "employee_rows": 800,
+  "applicant_rows": 5000,
+  "duplicate_employee_ids": 0,
+  "missing_mandatory_employee_cells": 0
+}

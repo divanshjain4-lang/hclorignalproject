@@ -1,0 +1,606 @@
+emp_id,year,annual_salary,gender,dept_id,role,level_id,join_date,exit_date,total_experience_years,education,department_name,level_name,rank,title,is_leadership,level_rank,tenure_years,rating
+E0001,2025,1167000.0,Male,1,Architect,2,2019-07-04,,8.2,21,Engineering,L2,2,Analyst,0,2,6.494182067077344,4
+E0002,2025,1092000.0,Female,6,Financial Analyst,1,2018-02-01,,4.6,21,Finance,L1,1,Trainee / Associate,0,1,7.912388774811773,4
+E0003,2025,906000.0,Other,4,DevOps Engineer,2,2022-02-01,,5.5,14,DevOps,L2,2,Analyst,0,2,3.912388774811773,5
+E0004,2025,788000.0,Male,6,Financial Analyst,2,2017-05-12,,1.8,16,Finance,L2,2,Analyst,0,2,8.63791923340178,3
+E0005,2025,1090000.0,Other,3,Analytics Manager,3,2025-06-23,,15.0,14,Data & Analytics,L3,3,Senior,0,3,0.5229295003422314,4
+E0006,2025,795000.0,Female,2,QA Engineer,2,2022-04-02,,5.1,21,Quality Assurance,L2,2,Analyst,0,2,3.7481177275838466,5
+E0007,2025,1479000.0,Female,3,Analytics Manager,6,2024-01-06,,7.8,21,Data & Analytics,L6,6,Senior Manager,1,6,1.9849418206707734,4
+E0008,2025,540000.0,Female,6,Accountant,1,2021-01-26,,0.9,12,Finance,L1,1,Trainee / Associate,0,1,4.9281314168377826,3
+E0009,2025,1436000.0,Male,7,Account Executive,6,2025-06-21,,11.1,18,Sales,L6,6,Senior Manager,1,6,0.5284052019164955,5
+E0010,2025,816000.0,Female,8,Support Specialist,2,2017-09-20,,2.0,21,Customer Support,L2,2,Analyst,0,2,8.279260780287474,3
+E0011,2025,1110000.0,Male,4,DevOps Engineer,1,2021-11-01,,7.1,18,DevOps,L1,1,Trainee / Associate,0,1,4.164271047227926,3
+E0012,2025,1144000.0,Female,2,QA Analyst,4,2023-01-24,,1.7,12,Quality Assurance,L4,4,Lead,0,4,2.9349760438056127,5
+E0013,2025,819000.0,Male,8,Support Lead,2,2025-03-12,,2.7,18,Customer Support,L2,2,Analyst,0,2,0.8049281314168378,3
+E0014,2025,767000.0,Male,1,Architect,2,2017-07-25,,3.7,21,Engineering,L2,2,Analyst,0,2,8.435318275154003,3
+E0015,2025,817000.0,Female,6,Financial Analyst,2,2018-06-21,,4.5,12,Finance,L2,2,Analyst,0,2,7.529089664613279,3
+E0016,2025,1372000.0,Other,1,Architect,5,2020-05-11,,1.2,14,Engineering,L5,5,Manager,1,5,5.639972621492129,4
+E0017,2025,1627000.0,Female,3,Analytics Manager,7,2018-10-24,,3.5,18,Data & Analytics,L7,7,Director and above,1,7,7.186858316221766,3
+E0018,2025,1394000.0,Female,6,Financial Analyst,6,2019-05-11,,6.6,16,Finance,L6,6,Senior Manager,1,6,6.6420260095824775,4
+E0019,2025,1472000.0,Male,5,Recruiter,5,2018-03-19,,4.5,18,Human Resources,L5,5,Manager,1,5,7.786447638603696,4
+E0020,2025,900000.0,Other,6,Financial Analyst,1,2019-12-06,,7.7,16,Finance,L1,1,Trainee / Associate,0,1,6.069815195071868,5
+E0021,2025,1386000.0,Female,7,Account Executive,6,2020-09-14,,2.7,12,Sales,L6,6,Senior Manager,1,6,5.295003422313484,3
+E0022,2025,807000.0,Female,5,Recruiter,2,2023-07-04,,5.7,18,Human Resources,L2,2,Analyst,0,2,2.4941820670773445,4
+E0023,2025,867000.0,Male,4,Platform Manager,2,2019-03-27,,5.7,14,DevOps,L2,2,Analyst,0,2,6.765229295003422,4
+E0024,2025,1452000.0,Male,4,DevOps Engineer,5,2024-10-21,,2.6,21,DevOps,L5,5,Manager,1,5,1.1937029431895962,4
+E0025,2025,1536000.0,Male,8,Support Manager,5,2022-08-30,,8.4,21,Customer Support,L5,5,Manager,1,5,3.3374401095140316,3
+E0026,2025,1472000.0,Female,6,Accountant,6,2017-11-27,,4.8,18,Finance,L6,6,Senior Manager,1,6,8.093086926762492,1
+E0027,2025,1170000.0,Male,7,Sales Manager,4,2023-02-15,,4.0,14,Sales,L4,4,Lead,0,4,2.8747433264887063,4
+E0028,2025,1175000.0,Male,1,Engineering Manager,3,2024-06-08,,12.1,18,Engineering,L3,3,Senior,0,3,1.5633127994524298,3
+E0029,2025,1322000.0,Male,7,Sales Analyst,4,2021-09-23,,9.4,18,Sales,L4,4,Lead,0,4,4.271047227926078,3
+E0030,2025,1208000.0,Male,6,Financial Analyst,3,2025-05-22,,13.2,14,Finance,L3,3,Senior,0,3,0.6105407255304586,5
+E0031,2025,1280000.0,Female,5,People Manager,4,2021-03-18,,7.6,14,Human Resources,L4,4,Lead,0,4,4.788501026694045,3
+E0032,2025,1540000.0,Male,2,QA Engineer,7,2024-02-17,,3.9,18,Quality Assurance,L7,7,Director and above,1,7,1.8699520876112252,4
+E0033,2025,880000.0,Male,8,Support Lead,2,2025-03-14,,8.1,14,Customer Support,L2,2,Analyst,0,2,0.7994524298425736,4
+E0034,2025,982000.0,Male,4,Site Reliability Engineer,3,2024-06-29,,5.0,18,DevOps,L3,3,Senior,0,3,1.5058179329226558,3
+E0035,2025,661000.0,Male,5,People Manager,1,2019-02-22,,6.9,18,Human Resources,L1,1,Trainee / Associate,0,1,6.855578370978781,4
+E0036,2025,831000.0,Male,5,HR Partner,2,2018-05-10,,5.1,21,Human Resources,L2,2,Analyst,0,2,7.644079397672827,3
+E0037,2025,1087000.0,Female,1,Software Engineer,3,2024-10-27,,11.9,18,Engineering,L3,3,Senior,0,3,1.1772758384668036,3
+E0038,2025,1422000.0,Female,8,Support Specialist,5,2021-06-30,,4.2,12,Customer Support,L5,5,Manager,1,5,4.503764544832307,3
+E0039,2025,1117000.0,Female,2,QA Analyst,4,2019-12-20,,0.8,14,Quality Assurance,L4,4,Lead,0,4,6.031485284052019,4
+E0040,2025,1456000.0,Male,4,Site Reliability Engineer,5,2024-01-05,,8.9,21,DevOps,L5,5,Manager,1,5,1.9876796714579055,2
+E0041,2025,888000.0,Male,5,HR Partner,1,2024-09-21,,8.0,16,Human Resources,L1,1,Trainee / Associate,0,1,1.2758384668035592,3
+E0042,2025,1694000.0,Female,2,QA Analyst,7,2023-06-15,,14.0,16,Quality Assurance,L7,7,Director and above,1,7,2.546201232032854,5
+E0043,2025,1049000.0,Female,8,Support Specialist,3,2021-07-31,,6.8,12,Customer Support,L3,3,Senior,0,3,4.418891170431212,3
+E0044,2025,708000.0,Male,8,Support Lead,1,2022-10-25,,8.6,18,Customer Support,L1,1,Trainee / Associate,0,1,3.184120465434634,3
+E0045,2025,846000.0,Male,7,Account Executive,2,2018-04-10,,3.9,14,Sales,L2,2,Analyst,0,2,7.72621492128679,4
+E0046,2025,812000.0,Male,5,Recruiter,2,2020-05-07,,3.5,18,Human Resources,L2,2,Analyst,0,2,5.650924024640657,3
+E0047,2025,1957000.0,Male,7,Sales Analyst,7,2024-04-24,,10.4,12,Sales,L7,7,Director and above,1,7,1.6865160848733745,2
+E0048,2025,1504000.0,Male,2,QA Manager,6,2017-03-04,,1.6,14,Quality Assurance,L6,6,Senior Manager,1,6,8.826830937713895,3
+E0049,2025,1248000.0,Male,2,QA Analyst,4,2020-03-23,,7.9,18,Quality Assurance,L4,4,Lead,0,4,5.774127310061601,3
+E0050,2025,1051000.0,Female,3,Data Analyst,3,2021-04-16,,4.4,18,Data & Analytics,L3,3,Senior,0,3,4.7091033538672145,3
+E0051,2025,1322000.0,Male,4,Site Reliability Engineer,5,2018-03-13,,4.7,16,DevOps,L5,5,Manager,1,5,7.8028747433264884,4
+E0052,2025,1231000.0,Male,6,Financial Analyst,4,2023-12-19,,8.4,14,Finance,L4,4,Lead,0,4,2.0342231348391513,3
+E0053,2025,1452000.0,Female,3,Analytics Manager,5,2021-02-07,,4.7,16,Data & Analytics,L5,5,Manager,1,5,4.895277207392197,4
+E0054,2025,1291000.0,Male,6,Financial Analyst,5,2017-02-27,,5.3,18,Finance,L5,5,Manager,1,5,8.840520191649555,3
+E0055,2025,840000.0,Male,2,QA Analyst,1,2017-06-02,,6.7,12,Quality Assurance,L1,1,Trainee / Associate,0,1,8.580424366872005,3
+E0056,2025,877000.0,Male,1,Architect,2,2021-12-22,,7.8,16,Engineering,L2,2,Analyst,0,2,4.024640657084189,4
+E0057,2025,1350000.0,Female,4,DevOps Engineer,5,2023-03-21,,8.3,14,DevOps,L5,5,Manager,1,5,2.7816563997262147,2
+E0058,2025,818000.0,Female,1,Software Engineer,1,2019-09-02,,2.0,14,Engineering,L1,1,Trainee / Associate,0,1,6.329911019849418,3
+E0059,2025,940000.0,Female,8,Support Lead,2,2018-03-19,,2.9,18,Customer Support,L2,2,Analyst,0,2,7.786447638603696,2
+E0060,2025,1139000.0,Male,4,Site Reliability Engineer,3,2019-07-25,,3.9,18,DevOps,L3,3,Senior,0,3,6.436687200547571,2
+E0061,2025,813000.0,Male,2,QA Engineer,2,2024-06-18,,5.6,12,Quality Assurance,L2,2,Analyst,0,2,1.5359342915811087,3
+E0062,2025,1280000.0,Female,2,QA Engineer,5,2021-02-14,,10.1,21,Quality Assurance,L5,5,Manager,1,5,4.876112251882272,4
+E0063,2025,1061000.0,Female,3,Data Analyst,3,2021-06-30,,9.1,12,Data & Analytics,L3,3,Senior,0,3,4.503764544832307,3
+E0064,2025,917000.0,Male,7,Sales Analyst,1,2022-09-30,,10.5,12,Sales,L1,1,Trainee / Associate,0,1,3.252566735112936,2
+E0065,2025,1253000.0,Female,1,Engineering Manager,4,2018-12-21,,6.7,14,Engineering,L4,4,Lead,0,4,7.028062970568104,3
+E0066,2025,1264000.0,Female,6,Financial Analyst,5,2023-12-07,,4.1,16,Finance,L5,5,Manager,1,5,2.0670773442847366,3
+E0067,2025,1049000.0,Male,2,QA Manager,3,2020-12-02,,7.2,14,Quality Assurance,L3,3,Senior,0,3,5.078713210130048,5
+E0068,2025,1201000.0,Male,6,Finance Manager,2,2021-12-07,,10.6,16,Finance,L2,2,Analyst,0,2,4.0657084188911705,5
+E0069,2025,1010000.0,Female,4,Site Reliability Engineer,3,2022-08-16,,11.8,18,DevOps,L3,3,Senior,0,3,3.375770020533881,3
+E0070,2025,1357000.0,Female,7,Sales Analyst,4,2017-08-03,,3.1,16,Sales,L4,4,Lead,0,4,8.410677618069816,5
+E0071,2025,1229000.0,Female,2,QA Engineer,3,2024-03-20,,7.3,21,Quality Assurance,L3,3,Senior,0,3,1.782340862422998,3
+E0072,2025,871000.0,Female,8,Support Specialist,2,2018-07-18,,5.0,12,Customer Support,L2,2,Analyst,0,2,7.455167693360712,2
+E0073,2025,782000.0,Male,8,Support Manager,2,2025-05-25,,4.0,14,Customer Support,L2,2,Analyst,0,2,0.6023271731690623,3
+E0074,2025,1161000.0,Male,4,Site Reliability Engineer,4,2023-05-26,,2.9,16,DevOps,L4,4,Lead,0,4,2.6009582477754964,3
+E0075,2025,841000.0,Male,2,QA Engineer,1,2018-10-19,,5.1,21,Quality Assurance,L1,1,Trainee / Associate,0,1,7.200547570157426,1
+E0076,2025,690000.0,Male,6,Financial Analyst,1,2020-03-21,,5.0,14,Finance,L1,1,Trainee / Associate,0,1,5.779603011635865,4
+E0077,2025,1048000.0,Female,8,Support Manager,3,2024-02-02,,2.3,14,Customer Support,L3,3,Senior,0,3,1.9110198494182067,3
+E0078,2025,1588000.0,Male,6,Financial Analyst,6,2023-02-07,,7.8,21,Finance,L6,6,Senior Manager,1,6,2.8966461327857633,1
+E0079,2025,1211000.0,Female,2,QA Manager,4,2020-09-23,,7.4,21,Quality Assurance,L4,4,Lead,0,4,5.270362765229295,3
+E0080,2025,733000.0,Female,8,Support Lead,1,2024-04-03,,8.8,12,Customer Support,L1,1,Trainee / Associate,0,1,1.7440109514031485,4
+E0081,2025,1711000.0,Male,7,Sales Analyst,7,2022-07-26,,4.3,21,Sales,L7,7,Director and above,1,7,3.433264887063655,2
+E0082,2025,1001000.0,Female,5,HR Partner,3,2025-01-18,,4.0,18,Human Resources,L3,3,Senior,0,3,0.9500342231348392,3
+E0083,2025,1676000.0,Male,6,Finance Manager,7,2020-01-30,,3.8,12,Finance,L7,7,Director and above,1,7,5.919233401779603,2
+E0084,2025,891000.0,Male,6,Accountant,2,2023-05-13,,12.5,18,Finance,L2,2,Analyst,0,2,2.6365503080082138,4
+E0085,2025,1058000.0,Female,3,Data Engineer,3,2023-04-20,,9.4,16,Data & Analytics,L3,3,Senior,0,3,2.6995208761122518,3
+E0086,2025,823000.0,Other,6,Finance Manager,2,2017-09-23,,5.1,14,Finance,L2,2,Analyst,0,2,8.271047227926077,4
+E0087,2025,830000.0,Male,2,QA Analyst,2,2025-01-15,,3.9,18,Quality Assurance,L2,2,Analyst,0,2,0.9582477754962354,5
+E0088,2025,1376000.0,Male,6,Financial Analyst,5,2023-03-09,,5.8,14,Finance,L5,5,Manager,1,5,2.8145106091718,3
+E0089,2025,817000.0,Female,5,Recruiter,2,2024-02-15,,6.3,16,Human Resources,L2,2,Analyst,0,2,1.8754277891854894,3
+E0090,2025,616000.0,Male,6,Finance Manager,1,2017-04-27,,5.0,21,Finance,L1,1,Trainee / Associate,0,1,8.678986995208762,3
+E0091,2025,737000.0,Male,6,Finance Manager,1,2025-01-21,,8.1,16,Finance,L1,1,Trainee / Associate,0,1,0.9418206707734429,5
+E0092,2025,752000.0,Female,2,QA Engineer,2,2018-05-17,,4.7,14,Quality Assurance,L2,2,Analyst,0,2,7.624914442162902,3
+E0093,2025,1112000.0,Male,8,Support Specialist,1,2020-12-16,,8.6,18,Customer Support,L1,1,Trainee / Associate,0,1,5.040383299110198,3
+E0094,2025,1153000.0,Female,7,Sales Manager,3,2023-03-03,,10.5,21,Sales,L3,3,Senior,0,3,2.830937713894593,3
+E0095,2025,729000.0,Male,1,Software Engineer,1,2020-09-26,,5.0,14,Engineering,L1,1,Trainee / Associate,0,1,5.262149212867898,3
+E0096,2025,1227000.0,Female,2,QA Engineer,3,2025-02-18,,14.3,16,Quality Assurance,L3,3,Senior,0,3,0.865160848733744,4
+E0097,2025,990000.0,Male,8,Support Specialist,3,2025-02-01,,5.0,14,Customer Support,L3,3,Senior,0,3,0.9117043121149897,2
+E0098,2025,742000.0,Female,1,Engineering Manager,2,2018-09-13,,4.1,18,Engineering,L2,2,Analyst,0,2,7.299110198494182,3
+E0099,2025,995000.0,Male,5,People Manager,3,2019-10-07,,6.3,14,Human Resources,L3,3,Senior,0,3,6.234086242299795,3
+E0100,2025,739000.0,Female,6,Financial Analyst,2,2020-03-24,,0.5,18,Finance,L2,2,Analyst,0,2,5.771389459274469,2
+E0101,2025,804000.0,Male,4,Platform Manager,2,2018-02-15,,2.5,18,DevOps,L2,2,Analyst,0,2,7.874058863791923,4
+E0102,2025,1250000.0,Female,4,Platform Manager,4,2017-06-02,,3.1,18,DevOps,L4,4,Lead,0,4,8.580424366872005,3
+E0103,2025,1432000.0,Male,8,Support Specialist,5,2022-04-02,,7.8,12,Customer Support,L5,5,Manager,1,5,3.7481177275838466,4
+E0104,2025,1010000.0,Female,6,Financial Analyst,2,2018-01-26,,6.9,18,Finance,L2,2,Analyst,0,2,7.928815879534565,2
+E0105,2025,607000.0,Female,5,People Manager,1,2020-04-23,,6.0,14,Human Resources,L1,1,Trainee / Associate,0,1,5.689253935660506,3
+E0106,2025,1421000.0,Female,2,QA Analyst,5,2022-09-02,,10.1,14,Quality Assurance,L5,5,Manager,1,5,3.3292265571526354,3
+E0107,2025,777000.0,Male,5,People Manager,1,2019-11-09,,10.1,21,Human Resources,L1,1,Trainee / Associate,0,1,6.143737166324435,4
+E0108,2025,1243000.0,Female,7,Sales Analyst,5,2021-03-27,,5.3,21,Sales,L5,5,Manager,1,5,4.763860369609857,3
+E0109,2025,1305000.0,Female,4,Platform Manager,4,2017-05-12,,2.8,21,DevOps,L4,4,Lead,0,4,8.63791923340178,3
+E0110,2025,1263000.0,Female,5,Recruiter,5,2025-03-16,,1.2,21,Human Resources,L5,5,Manager,1,5,0.7939767282683093,3
+E0111,2025,1043000.0,Other,4,Site Reliability Engineer,2,2017-09-07,,5.6,18,DevOps,L2,2,Analyst,0,2,8.314852840520192,3
+E0112,2025,1180000.0,Female,8,Support Specialist,3,2021-09-03,,5.0,18,Customer Support,L3,3,Senior,0,3,4.32580424366872,4
+E0113,2025,1642000.0,Male,6,Accountant,6,2017-03-04,,6.8,12,Finance,L6,6,Senior Manager,1,6,8.826830937713895,3
+E0114,2025,1623000.0,Male,8,Support Lead,6,2021-02-27,,6.9,21,Customer Support,L6,6,Senior Manager,1,6,4.8405201916495555,4
+E0115,2025,808000.0,Male,8,Support Lead,1,2020-12-13,,7.5,21,Customer Support,L1,1,Trainee / Associate,0,1,5.048596851471594,3
+E0116,2025,622000.0,Female,8,Support Lead,1,2024-02-26,,3.3,12,Customer Support,L1,1,Trainee / Associate,0,1,1.8453114305270362,3
+E0117,2025,570000.0,Female,7,Account Executive,1,2018-01-30,,0.6,14,Sales,L1,1,Trainee / Associate,0,1,7.917864476386037,4
+E0118,2025,948000.0,Female,1,Software Engineer,2,2021-03-25,,4.5,12,Engineering,L2,2,Analyst,0,2,4.769336071184121,3
+E0119,2025,975000.0,Male,5,People Manager,3,2017-05-15,,7.2,16,Human Resources,L3,3,Senior,0,3,8.629705681040383,4
+E0120,2025,675000.0,Female,6,Financial Analyst,1,2019-08-09,,7.8,21,Finance,L1,1,Trainee / Associate,0,1,6.395619438740589,2
+E0121,2025,1038000.0,Male,2,QA Analyst,2,2021-04-06,,3.6,14,Quality Assurance,L2,2,Analyst,0,2,4.736481861738535,2
+E0122,2025,775000.0,Female,7,Account Executive,2,2021-05-08,,0.9,21,Sales,L2,2,Analyst,0,2,4.648870636550308,2
+E0123,2025,1142000.0,Female,7,Sales Analyst,3,2017-11-12,,2.6,14,Sales,L3,3,Senior,0,3,8.134154688569472,3
+E0124,2025,1038000.0,Male,4,Site Reliability Engineer,2,2021-06-20,,6.8,18,DevOps,L2,2,Analyst,0,2,4.531143052703627,4
+E0125,2025,632000.0,Female,5,People Manager,1,2021-08-03,,3.5,16,Human Resources,L1,1,Trainee / Associate,0,1,4.4106776180698155,4
+E0126,2025,1150000.0,Male,2,QA Analyst,4,2024-05-17,,4.9,21,Quality Assurance,L4,4,Lead,0,4,1.623545516769336,4
+E0127,2025,756000.0,Female,1,Software Engineer,2,2022-09-23,,3.9,21,Engineering,L2,2,Analyst,0,2,3.271731690622861,5
+E0128,2025,1281000.0,Male,3,Data Engineer,2,2022-02-09,,1.9,18,Data & Analytics,L2,2,Analyst,0,2,3.890485968514716,4
+E0129,2025,713000.0,Male,3,Analytics Manager,1,2023-04-13,,4.6,14,Data & Analytics,L1,1,Trainee / Associate,0,1,2.7186858316221767,4
+E0130,2025,806000.0,Female,1,Architect,1,2020-02-15,,2.7,12,Engineering,L1,1,Trainee / Associate,0,1,5.87542778918549,3
+E0131,2025,1073000.0,Male,5,People Manager,3,2024-07-15,,10.5,14,Human Resources,L3,3,Senior,0,3,1.462012320328542,3
+E0132,2025,1278000.0,Female,3,Data Engineer,4,2024-10-11,,10.6,18,Data & Analytics,L4,4,Lead,0,4,1.2210814510609171,4
+E0133,2025,1692000.0,Male,4,Site Reliability Engineer,7,2022-09-02,,4.8,18,DevOps,L7,7,Director and above,1,7,3.3292265571526354,3
+E0134,2025,1225000.0,Male,3,Data Engineer,3,2022-07-22,,5.9,21,Data & Analytics,L3,3,Senior,0,3,3.4442162902121836,4
+E0135,2025,981000.0,Female,1,Engineering Manager,2,2017-12-23,,3.6,12,Engineering,L2,2,Analyst,0,2,8.021902806297057,3
+E0136,2025,991000.0,Male,6,Finance Manager,2,2023-06-04,,8.3,21,Finance,L2,2,Analyst,0,2,2.5763175906913074,2
+E0137,2025,1124000.0,Female,6,Financial Analyst,4,2024-08-01,,5.2,21,Finance,L4,4,Lead,0,4,1.4154688569472964,4
+E0138,2025,1414000.0,Female,5,People Manager,6,2021-02-20,,6.9,16,Human Resources,L6,6,Senior Manager,1,6,4.85968514715948,3
+E0139,2025,1371000.0,Female,3,Analytics Manager,5,2020-11-08,,3.5,12,Data & Analytics,L5,5,Manager,1,5,5.144421629021219,3
+E0140,2025,1494000.0,Female,6,Finance Manager,6,2018-11-09,,7.5,16,Finance,L6,6,Senior Manager,1,6,7.143052703627652,2
+E0141,2025,825000.0,Male,8,Support Specialist,2,2018-01-01,,5.2,16,Customer Support,L2,2,Analyst,0,2,7.997262149212868,3
+E0142,2025,576000.0,Male,2,QA Analyst,1,2018-05-20,,3.1,18,Quality Assurance,L1,1,Trainee / Associate,0,1,7.616700889801506,3
+E0143,2025,701000.0,Male,5,People Manager,1,2019-09-08,,3.3,14,Human Resources,L1,1,Trainee / Associate,0,1,6.313483915126626,1
+E0144,2025,1505000.0,Female,1,Software Engineer,6,2021-06-19,,4.6,21,Engineering,L6,6,Senior Manager,1,6,4.5338809034907595,3
+E0145,2025,1258000.0,Male,2,QA Engineer,4,2025-03-09,,8.0,12,Quality Assurance,L4,4,Lead,0,4,0.813141683778234,4
+E0146,2025,691000.0,Male,3,Data Analyst,1,2018-07-17,,6.9,16,Data & Analytics,L1,1,Trainee / Associate,0,1,7.457905544147844,2
+E0147,2025,1472000.0,Male,2,QA Engineer,3,2021-01-15,,9.9,21,Quality Assurance,L3,3,Senior,0,3,4.958247775496235,5
+E0148,2025,897000.0,Male,7,Account Executive,2,2021-09-01,,2.6,12,Sales,L2,2,Analyst,0,2,4.331279945242985,2
+E0149,2025,1636000.0,Female,5,People Manager,5,2025-04-18,,9.2,21,Human Resources,L5,5,Manager,1,5,0.70362765229295,4
+E0150,2025,863000.0,Male,4,DevOps Engineer,1,2021-08-07,,10.0,16,DevOps,L1,1,Trainee / Associate,0,1,4.399726214921286,5
+E0151,2025,1501000.0,Female,1,Software Engineer,6,2022-10-30,,8.3,16,Engineering,L6,6,Senior Manager,1,6,3.1704312114989732,3
+E0152,2025,1370000.0,Male,7,Sales Manager,5,2020-08-29,,6.5,14,Sales,L5,5,Manager,1,5,5.338809034907597,3
+E0153,2025,1520000.0,Male,1,Software Engineer,5,2020-09-04,,7.3,14,Engineering,L5,5,Manager,1,5,5.322381930184805,4
+E0154,2025,978000.0,Female,4,DevOps Engineer,1,2021-06-29,,7.4,12,DevOps,L1,1,Trainee / Associate,0,1,4.506502395619439,3
+E0155,2025,1121000.0,Female,1,Engineering Manager,4,2018-12-09,,3.6,14,Engineering,L4,4,Lead,0,4,7.060917180013689,4
+E0156,2025,1261000.0,Female,1,Engineering Manager,5,2021-01-10,,5.3,18,Engineering,L5,5,Manager,1,5,4.971937029431896,3
+E0157,2025,1154000.0,Female,1,Software Engineer,3,2021-05-10,,8.2,14,Engineering,L3,3,Senior,0,3,4.643394934976044,4
+E0158,2025,624000.0,Female,8,Support Specialist,1,2019-08-11,,1.5,21,Customer Support,L1,1,Trainee / Associate,0,1,6.3901437371663246,3
+E0159,2025,650000.0,Male,7,Sales Manager,1,2020-05-21,,5.2,14,Sales,L1,1,Trainee / Associate,0,1,5.6125941136208075,3
+E0160,2025,597000.0,Female,3,Analytics Manager,1,2024-11-15,,1.2,21,Data & Analytics,L1,1,Trainee / Associate,0,1,1.1252566735112937,3
+E0161,2025,1275000.0,Male,3,Data Engineer,4,2019-09-02,,6.7,14,Data & Analytics,L4,4,Lead,0,4,6.329911019849418,3
+E0162,2025,960000.0,Female,7,Sales Analyst,3,2018-02-20,,3.1,21,Sales,L3,3,Senior,0,3,7.860369609856263,3
+E0163,2025,748000.0,Female,8,Support Manager,1,2024-05-01,,10.5,18,Customer Support,L1,1,Trainee / Associate,0,1,1.6673511293634498,4
+E0164,2025,1009000.0,Male,5,People Manager,2,2019-08-31,,6.7,21,Human Resources,L2,2,Analyst,0,2,6.335386721423682,4
+E0165,2025,1209000.0,Male,5,Recruiter,4,2021-05-07,,8.4,18,Human Resources,L4,4,Lead,0,4,4.65160848733744,5
+E0166,2025,963000.0,Male,7,Sales Manager,2,2023-01-03,,5.9,18,Sales,L2,2,Analyst,0,2,2.9924709103353866,3
+E0167,2025,1613000.0,Female,8,Support Specialist,6,2018-11-16,,6.9,14,Customer Support,L6,6,Senior Manager,1,6,7.123887748117728,4
+E0168,2025,938000.0,Female,7,Sales Manager,2,2020-02-06,,3.6,12,Sales,L2,2,Analyst,0,2,5.900068446269678,3
+E0169,2025,1033000.0,Female,8,Support Manager,3,2017-06-03,,5.3,14,Customer Support,L3,3,Senior,0,3,8.577686516084873,3
+E0170,2025,676000.0,Male,2,QA Analyst,1,2025-05-05,,5.7,16,Quality Assurance,L1,1,Trainee / Associate,0,1,0.6570841889117043,4
+E0171,2025,1137000.0,Female,7,Sales Manager,3,2022-10-17,,2.2,12,Sales,L3,3,Senior,0,3,3.2060232717316905,4
+E0172,2025,816000.0,Male,6,Finance Manager,1,2021-02-17,,5.4,12,Finance,L1,1,Trainee / Associate,0,1,4.867898699520876,1
+E0173,2025,1229000.0,Male,4,DevOps Engineer,4,2024-08-07,,8.8,18,DevOps,L4,4,Lead,0,4,1.3990417522245038,3
+E0174,2025,739000.0,Female,1,Software Engineer,2,2020-06-05,,3.3,16,Engineering,L2,2,Analyst,0,2,5.5715263518138265,4
+E0175,2025,1801000.0,Female,2,QA Engineer,7,2024-03-08,,7.5,16,Quality Assurance,L7,7,Director and above,1,7,1.8151950718685832,3
+E0176,2025,1343000.0,Male,4,DevOps Engineer,5,2023-09-24,,4.6,14,DevOps,L5,5,Manager,1,5,2.269678302532512,2
+E0177,2025,1194000.0,Male,4,Site Reliability Engineer,4,2019-06-30,,3.4,18,DevOps,L4,4,Lead,0,4,6.505133470225872,3
+E0178,2025,1558000.0,Female,5,HR Partner,5,2020-09-19,,5.3,16,Human Resources,L5,5,Manager,1,5,5.281314168377824,4
+E0179,2025,1737000.0,Other,6,Accountant,7,2022-02-18,,9.5,14,Finance,L7,7,Director and above,1,7,3.865845311430527,4
+E0180,2025,1489000.0,Female,3,Data Engineer,5,2017-12-27,,6.4,18,Data & Analytics,L5,5,Manager,1,5,8.010951403148528,3
+E0181,2025,759000.0,Female,5,Recruiter,1,2017-07-07,,6.7,18,Human Resources,L1,1,Trainee / Associate,0,1,8.484599589322382,3
+E0182,2025,1292000.0,Female,1,Architect,3,2018-05-20,,4.4,12,Engineering,L3,3,Senior,0,3,7.616700889801506,3
+E0183,2025,733000.0,Female,7,Sales Manager,1,2022-11-02,,9.7,14,Sales,L1,1,Trainee / Associate,0,1,3.162217659137577,5
+E0184,2025,1115000.0,Female,3,Data Analyst,3,2019-05-01,,2.9,12,Data & Analytics,L3,3,Senior,0,3,6.669404517453799,5
+E0185,2025,1609000.0,Female,3,Data Analyst,5,2021-01-15,,2.1,18,Data & Analytics,L5,5,Manager,1,5,4.958247775496235,3
+E0186,2025,1126000.0,Male,5,HR Partner,4,2022-05-13,,2.7,14,Human Resources,L4,4,Lead,0,4,3.6358658453114305,3
+E0187,2025,1371000.0,Female,3,Data Engineer,6,2018-04-08,,3.0,12,Data & Analytics,L6,6,Senior Manager,1,6,7.731690622861054,2
+E0188,2025,1131000.0,Female,6,Finance Manager,4,2021-04-26,,10.2,21,Finance,L4,4,Lead,0,4,4.681724845995893,3
+E0189,2025,1072000.0,Female,8,Support Manager,3,2022-08-04,,6.5,18,Customer Support,L3,3,Senior,0,3,3.4086242299794662,3
+E0190,2025,1227000.0,Male,6,Accountant,5,2019-07-03,,3.4,21,Finance,L5,5,Manager,1,5,6.496919917864476,2
+E0191,2025,874000.0,Male,7,Account Executive,2,2019-03-14,,5.5,18,Sales,L2,2,Analyst,0,2,6.80082135523614,1
+E0192,2025,939000.0,Male,7,Sales Manager,3,2022-09-14,,4.7,14,Sales,L3,3,Senior,0,3,3.29637234770705,4
+E0193,2025,1044000.0,Female,6,Accountant,3,2018-07-01,,6.2,21,Finance,L3,3,Senior,0,3,7.501711156741957,4
+E0194,2025,817000.0,Male,6,Finance Manager,1,2020-12-13,,4.1,21,Finance,L1,1,Trainee / Associate,0,1,5.048596851471594,5
+E0195,2025,1190000.0,Female,1,Architect,5,2019-04-16,,1.3,18,Engineering,L5,5,Manager,1,5,6.71047227926078,3
+E0196,2025,765000.0,Male,6,Finance Manager,1,2025-05-05,,8.3,18,Finance,L1,1,Trainee / Associate,0,1,0.6570841889117043,4
+E0197,2025,1654000.0,Male,4,Platform Manager,7,2020-04-19,,3.8,12,DevOps,L7,7,Director and above,1,7,5.700205338809035,3
+E0198,2025,576000.0,Female,3,Data Analyst,1,2020-08-14,,2.1,21,Data & Analytics,L1,1,Trainee / Associate,0,1,5.379876796714579,4
+E0199,2025,1419000.0,Female,5,Recruiter,6,2023-12-08,,1.5,21,Human Resources,L6,6,Senior Manager,1,6,2.0643394934976045,4
+E0200,2025,1807000.0,Male,6,Accountant,6,2018-04-10,,2.7,16,Finance,L6,6,Senior Manager,1,6,7.72621492128679,3
+E0201,2025,1369000.0,Male,4,Platform Manager,4,2019-05-24,,5.1,14,DevOps,L4,4,Lead,0,4,6.606433949349761,4
+E0202,2025,791000.0,Male,4,Site Reliability Engineer,2,2022-01-22,,4.2,16,DevOps,L2,2,Analyst,0,2,3.9397672826830936,2
+E0203,2025,1053000.0,Female,2,QA Engineer,4,2021-11-28,,6.8,12,Quality Assurance,L4,4,Lead,0,4,4.090349075975359,3
+E0204,2025,977000.0,Female,1,Architect,3,2023-01-10,,7.7,16,Engineering,L3,3,Senior,0,3,2.973305954825462,2
+E0205,2025,999000.0,Male,5,Recruiter,1,2024-07-11,,13.9,21,Human Resources,L1,1,Trainee / Associate,0,1,1.4729637234770705,2
+E0206,2025,719000.0,Male,6,Accountant,1,2024-05-08,,7.4,21,Finance,L1,1,Trainee / Associate,0,1,1.648186173853525,4
+E0207,2025,1571000.0,Female,6,Accountant,6,2018-11-22,,7.8,14,Finance,L6,6,Senior Manager,1,6,7.107460643394935,4
+E0208,2025,584000.0,Female,2,QA Manager,1,2017-03-18,,2.0,12,Quality Assurance,L1,1,Trainee / Associate,0,1,8.788501026694044,3
+E0209,2025,770000.0,Female,2,QA Engineer,2,2017-02-13,,2.1,21,Quality Assurance,L2,2,Analyst,0,2,8.878850102669405,3
+E0210,2025,877000.0,Male,6,Accountant,3,2022-02-06,,0.4,16,Finance,L3,3,Senior,0,3,3.898699520876112,3
+E0211,2025,806000.0,Female,2,QA Manager,2,2019-07-02,,2.9,16,Quality Assurance,L2,2,Analyst,0,2,6.499657768651608,2
+E0212,2025,1415000.0,Male,2,QA Engineer,4,2022-05-17,,9.8,18,Quality Assurance,L4,4,Lead,0,4,3.6249144421629023,5
+E0213,2025,1140000.0,Male,1,Architect,4,2020-03-07,,7.9,21,Engineering,L4,4,Lead,0,4,5.817932922655715,3
+E0214,2025,1358000.0,Female,4,Platform Manager,5,2022-08-28,,4.2,14,DevOps,L5,5,Manager,1,5,3.3429158110882957,3
+E0215,2025,827000.0,Male,7,Sales Manager,2,2017-06-27,,3.2,14,Sales,L2,2,Analyst,0,2,8.511978097193703,2
+E0216,2025,785000.0,Male,5,Recruiter,1,2025-05-04,,14.9,12,Human Resources,L1,1,Trainee / Associate,0,1,0.6598220396988365,3
+E0217,2025,908000.0,Female,2,QA Analyst,2,2023-07-26,,6.7,21,Quality Assurance,L2,2,Analyst,0,2,2.433949349760438,4
+E0218,2025,1510000.0,Female,8,Support Lead,7,2023-06-25,,6.1,18,Customer Support,L7,7,Director and above,1,7,2.518822724161533,3
+E0219,2025,1418000.0,Female,7,Sales Analyst,5,2023-11-21,,11.2,12,Sales,L5,5,Manager,1,5,2.11088295687885,3
+E0220,2025,1158000.0,Male,7,Sales Manager,4,2020-03-19,,3.1,12,Sales,L4,4,Lead,0,4,5.7850787132101305,3
+E0221,2025,804000.0,Female,5,HR Partner,2,2021-06-07,,6.6,21,Human Resources,L2,2,Analyst,0,2,4.566735112936345,3
+E0222,2025,674000.0,Female,2,QA Manager,1,2020-04-20,,7.3,21,Quality Assurance,L1,1,Trainee / Associate,0,1,5.6974674880219025,2
+E0223,2025,1261000.0,Male,4,Platform Manager,4,2020-07-17,,6.8,21,DevOps,L4,4,Lead,0,4,5.456536618754278,3
+E0224,2025,1608000.0,Male,4,Site Reliability Engineer,4,2019-08-20,,7.5,14,DevOps,L4,4,Lead,0,4,6.365503080082136,3
+E0225,2025,711000.0,Male,5,HR Partner,1,2022-09-25,,8.8,21,Human Resources,L1,1,Trainee / Associate,0,1,3.266255989048597,3
+E0226,2025,942000.0,Female,4,Site Reliability Engineer,3,2020-08-25,,6.4,16,DevOps,L3,3,Senior,0,3,5.349760438056126,3
+E0227,2025,803000.0,Male,2,QA Manager,2,2019-08-24,,2.7,18,Quality Assurance,L2,2,Analyst,0,2,6.354551676933607,2
+E0228,2025,968000.0,Female,4,Site Reliability Engineer,3,2024-01-24,,11.3,16,DevOps,L3,3,Senior,0,3,1.9356605065023955,3
+E0229,2025,880000.0,Female,4,Platform Manager,3,2024-04-12,,0.7,16,DevOps,L3,3,Senior,0,3,1.7193702943189597,4
+E0230,2025,849000.0,Male,7,Sales Manager,2,2024-02-01,,11.4,16,Sales,L2,2,Analyst,0,2,1.9137577002053388,2
+E0231,2025,798000.0,Female,5,People Manager,2,2024-03-25,,4.2,18,Human Resources,L2,2,Analyst,0,2,1.7686516084873374,3
+E0232,2025,1261000.0,Male,3,Analytics Manager,2,2019-10-28,,7.6,18,Data & Analytics,L2,2,Analyst,0,2,6.176591375770021,3
+E0233,2025,953000.0,Female,3,Data Analyst,3,2018-11-30,,6.7,16,Data & Analytics,L3,3,Senior,0,3,7.085557837097878,3
+E0234,2025,1175000.0,Female,6,Accountant,3,2018-01-02,,2.0,18,Finance,L3,3,Senior,0,3,7.994524298425736,3
+E0235,2025,801000.0,Female,1,Architect,2,2021-08-14,,4.6,14,Engineering,L2,2,Analyst,0,2,4.380561259411362,3
+E0236,2025,1237000.0,Female,5,Recruiter,4,2023-12-06,,2.6,21,Human Resources,L4,4,Lead,0,4,2.0698151950718686,3
+E0237,2025,641000.0,Female,1,Software Engineer,1,2017-03-02,,3.1,18,Engineering,L1,1,Trainee / Associate,0,1,8.83230663928816,4
+E0238,2025,1477000.0,Female,4,Site Reliability Engineer,5,2021-12-20,,9.4,12,DevOps,L5,5,Manager,1,5,4.030116358658453,2
+E0239,2025,1632000.0,Female,6,Financial Analyst,5,2019-06-12,,6.9,18,Finance,L5,5,Manager,1,5,6.55441478439425,3
+E0240,2025,653000.0,Female,6,Finance Manager,1,2020-12-27,,2.2,21,Finance,L1,1,Trainee / Associate,0,1,5.0102669404517455,4
+E0241,2025,981000.0,Female,5,People Manager,4,2019-02-17,,1.3,16,Human Resources,L4,4,Lead,0,4,6.869267624914442,4
+E0242,2025,1022000.0,Female,4,Site Reliability Engineer,4,2024-05-20,,2.8,14,DevOps,L4,4,Lead,0,4,1.6153319644079398,3
+E0243,2025,1518000.0,Female,2,QA Analyst,5,2018-06-16,,7.1,14,Quality Assurance,L5,5,Manager,1,5,7.542778918548939,5
+E0244,2025,1287000.0,Male,2,QA Engineer,5,2017-09-06,,3.3,18,Quality Assurance,L5,5,Manager,1,5,8.317590691307323,4
+E0245,2025,705000.0,Male,7,Sales Manager,1,2024-02-29,,6.2,18,Sales,L1,1,Trainee / Associate,0,1,1.83709787816564,3
+E0246,2025,1409000.0,Other,8,Support Lead,6,2023-03-04,,3.0,16,Customer Support,L6,6,Senior Manager,1,6,2.8281998631074607,3
+E0247,2025,984000.0,Male,6,Accountant,3,2021-06-15,,11.6,16,Finance,L3,3,Senior,0,3,4.544832306639288,3
+E0248,2025,797000.0,Female,3,Data Engineer,2,2023-07-13,,6.6,16,Data & Analytics,L2,2,Analyst,0,2,2.4695414099931554,3
+E0249,2025,1343000.0,Male,2,QA Manager,4,2017-06-03,,3.8,18,Quality Assurance,L4,4,Lead,0,4,8.577686516084873,3
+E0250,2025,1038000.0,Male,3,Data Engineer,3,2019-06-24,,5.9,18,Data & Analytics,L3,3,Senior,0,3,6.521560574948666,3
+E0251,2025,988000.0,Male,3,Data Engineer,3,2022-06-22,,8.0,14,Data & Analytics,L3,3,Senior,0,3,3.5263518138261465,3
+E0252,2025,654000.0,Female,1,Engineering Manager,1,2020-12-03,,4.5,18,Engineering,L1,1,Trainee / Associate,0,1,5.075975359342916,3
+E0253,2025,732000.0,Female,8,Support Specialist,2,2025-04-20,,1.9,21,Customer Support,L2,2,Analyst,0,2,0.6981519507186859,3
+E0254,2025,1356000.0,Male,3,Analytics Manager,4,2017-03-17,,4.8,21,Data & Analytics,L4,4,Lead,0,4,8.791238877481177,4
+E0255,2025,1625000.0,Female,7,Sales Manager,7,2018-02-12,,4.0,21,Sales,L7,7,Director and above,1,7,7.882272416153319,3
+E0256,2025,978000.0,Female,3,Data Analyst,2,2020-12-12,,6.8,14,Data & Analytics,L2,2,Analyst,0,2,5.0513347022587265,4
+E0257,2025,783000.0,Male,4,Site Reliability Engineer,2,2018-09-18,,4.8,21,DevOps,L2,2,Analyst,0,2,7.285420944558521,5
+E0258,2025,650000.0,Male,3,Data Engineer,1,2022-12-24,,2.5,14,Data & Analytics,L1,1,Trainee / Associate,0,1,3.0198494182067077,5
+E0259,2025,660000.0,Male,2,QA Analyst,1,2023-11-12,,7.7,21,Quality Assurance,L1,1,Trainee / Associate,0,1,2.135523613963039,4
+E0260,2025,684000.0,Male,8,Support Lead,1,2019-03-03,,4.7,12,Customer Support,L1,1,Trainee / Associate,0,1,6.830937713894593,4
+E0261,2025,894000.0,Male,7,Sales Manager,2,2023-11-10,,2.0,12,Sales,L2,2,Analyst,0,2,2.1409993155373033,3
+E0262,2025,871000.0,Male,1,Software Engineer,2,2021-06-19,,8.4,16,Engineering,L2,2,Analyst,0,2,4.5338809034907595,4
+E0263,2025,753000.0,Female,8,Support Specialist,1,2023-08-15,,9.7,12,Customer Support,L1,1,Trainee / Associate,0,1,2.379192334017796,3
+E0264,2025,1021000.0,Female,3,Data Engineer,3,2017-06-29,,1.7,16,Data & Analytics,L3,3,Senior,0,3,8.506502395619439,2
+E0265,2025,1181000.0,Male,5,Recruiter,3,2022-08-05,,6.9,21,Human Resources,L3,3,Senior,0,3,3.405886379192334,3
+E0266,2025,1240000.0,Female,3,Data Analyst,4,2017-05-31,,7.2,21,Data & Analytics,L4,4,Lead,0,4,8.58590006844627,5
+E0267,2025,1475000.0,Female,6,Accountant,5,2021-10-17,,2.0,16,Finance,L5,5,Manager,1,5,4.205338809034908,4
+E0268,2025,1192000.0,Male,5,HR Partner,3,2020-07-20,,7.2,21,Human Resources,L3,3,Senior,0,3,5.448323066392882,4
+E0269,2025,874000.0,Other,7,Account Executive,2,2023-04-15,,6.6,14,Sales,L2,2,Analyst,0,2,2.7132101300479126,2
+E0270,2025,606000.0,Female,1,Software Engineer,1,2020-10-16,,2.7,18,Engineering,L1,1,Trainee / Associate,0,1,5.207392197125257,3
+E0271,2025,1630000.0,Male,6,Financial Analyst,7,2020-02-23,,8.8,18,Finance,L7,7,Director and above,1,7,5.853524982888432,3
+E0272,2025,966000.0,Female,7,Account Executive,3,2019-09-01,,4.9,16,Sales,L3,3,Senior,0,3,6.33264887063655,4
+E0273,2025,1409000.0,Male,3,Data Analyst,4,2022-02-25,,7.9,21,Data & Analytics,L4,4,Lead,0,4,3.8466803559206024,1
+E0274,2025,688000.0,Male,4,Site Reliability Engineer,1,2020-03-19,,6.7,18,DevOps,L1,1,Trainee / Associate,0,1,5.7850787132101305,3
+E0275,2025,979000.0,Female,6,Finance Manager,3,2018-06-17,,7.5,12,Finance,L3,3,Senior,0,3,7.540041067761807,5
+E0276,2025,1260000.0,Male,3,Data Analyst,5,2024-11-01,,2.6,16,Data & Analytics,L5,5,Manager,1,5,1.163586584531143,3
+E0277,2025,834000.0,Male,6,Accountant,1,2024-06-17,,7.4,16,Finance,L1,1,Trainee / Associate,0,1,1.538672142368241,3
+E0278,2025,782000.0,Male,3,Analytics Manager,1,2025-01-04,,11.6,12,Data & Analytics,L1,1,Trainee / Associate,0,1,0.9883641341546886,4
+E0279,2025,1191000.0,Female,7,Account Executive,4,2023-02-23,,12.3,18,Sales,L4,4,Lead,0,4,2.8528405201916494,3
+E0280,2025,1048000.0,Male,8,Support Specialist,3,2022-03-12,,8.2,18,Customer Support,L3,3,Senior,0,3,3.805612594113621,4
+E0281,2025,1011000.0,Male,1,Software Engineer,4,2022-01-30,,5.0,21,Engineering,L4,4,Lead,0,4,3.917864476386037,3
+E0282,2025,1363000.0,Female,7,Account Executive,5,2017-09-13,,4.3,12,Sales,L5,5,Manager,1,5,8.2984257357974,3
+E0283,2025,1263000.0,Female,7,Sales Analyst,5,2018-09-24,,6.5,14,Sales,L5,5,Manager,1,5,7.268993839835729,3
+E0284,2025,1001000.0,Male,8,Support Lead,2,2019-02-01,,4.1,21,Customer Support,L2,2,Analyst,0,2,6.913073237508556,2
+E0285,2025,1162000.0,Male,5,HR Partner,3,2022-11-14,,2.7,14,Human Resources,L3,3,Senior,0,3,3.1293634496919918,3
+E0286,2025,1062000.0,Male,6,Accountant,2,2020-04-21,,5.6,21,Finance,L2,2,Analyst,0,2,5.69472963723477,3
+E0287,2025,1334000.0,Female,5,Recruiter,4,2023-10-10,,10.6,14,Human Resources,L4,4,Lead,0,4,2.2258726899383983,3
+E0288,2025,1585000.0,Other,3,Analytics Manager,6,2018-09-24,,3.4,18,Data & Analytics,L6,6,Senior Manager,1,6,7.268993839835729,4
+E0289,2025,1458000.0,Male,4,Site Reliability Engineer,4,2021-05-17,,4.8,21,DevOps,L4,4,Lead,0,4,4.6242299794661195,4
+E0290,2025,733000.0,Female,5,Recruiter,2,2023-07-21,,4.2,14,Human Resources,L2,2,Analyst,0,2,2.4476386036960984,4
+E0291,2025,1226000.0,Female,2,QA Manager,3,2019-06-18,,5.0,12,Quality Assurance,L3,3,Senior,0,3,6.537987679671458,4
+E0292,2025,757000.0,Male,2,QA Manager,1,2020-04-21,,5.1,12,Quality Assurance,L1,1,Trainee / Associate,0,1,5.69472963723477,3
+E0293,2025,725000.0,Male,4,Platform Manager,2,2024-03-28,,1.5,21,DevOps,L2,2,Analyst,0,2,1.7604380561259412,4
+E0294,2025,693000.0,Female,5,HR Partner,1,2022-08-01,,10.9,12,Human Resources,L1,1,Trainee / Associate,0,1,3.4168377823408624,4
+E0295,2025,778000.0,Male,4,DevOps Engineer,2,2024-09-24,,2.3,21,DevOps,L2,2,Analyst,0,2,1.267624914442163,4
+E0296,2025,1317000.0,Female,6,Financial Analyst,5,2020-04-02,,1.6,21,Finance,L5,5,Manager,1,5,5.746748802190281,4
+E0297,2025,1315000.0,Male,2,QA Manager,4,2022-08-09,,7.5,18,Quality Assurance,L4,4,Lead,0,4,3.3949349760438055,4
+E0298,2025,819000.0,Male,4,DevOps Engineer,1,2018-08-03,,3.1,18,DevOps,L1,1,Trainee / Associate,0,1,7.411362080766598,3
+E0299,2025,793000.0,Female,4,Site Reliability Engineer,2,2025-04-11,,5.2,21,DevOps,L2,2,Analyst,0,2,0.7227926078028748,3
+E0300,2025,1071000.0,Male,4,DevOps Engineer,3,2020-10-06,,8.4,14,DevOps,L3,3,Senior,0,3,5.234770704996578,5
+E0301,2025,1415000.0,Male,5,HR Partner,4,2022-05-04,,3.0,14,Human Resources,L4,4,Lead,0,4,3.6605065023956196,4
+E0302,2025,966000.0,Female,4,DevOps Engineer,1,2022-12-12,,11.7,21,DevOps,L1,1,Trainee / Associate,0,1,3.052703627652293,3
+E0303,2025,611000.0,Female,6,Accountant,1,2019-10-27,,5.9,18,Finance,L1,1,Trainee / Associate,0,1,6.179329226557153,4
+E0304,2025,707000.0,Male,6,Financial Analyst,1,2025-04-10,,6.6,18,Finance,L1,1,Trainee / Associate,0,1,0.7255304585900069,3
+E0305,2025,1158000.0,Female,4,Platform Manager,3,2021-05-06,,5.6,14,DevOps,L3,3,Senior,0,3,4.654346338124572,4
+E0306,2025,1676000.0,Male,3,Analytics Manager,7,2019-07-30,,7.8,21,Data & Analytics,L7,7,Director and above,1,7,6.422997946611909,4
+E0307,2025,1662000.0,Male,3,Analytics Manager,6,2021-09-08,,9.3,18,Data & Analytics,L6,6,Senior Manager,1,6,4.312114989733059,3
+E0308,2025,1244000.0,Female,2,QA Analyst,3,2020-06-02,,8.7,21,Quality Assurance,L3,3,Senior,0,3,5.579739904175223,2
+E0309,2025,616000.0,Female,4,Platform Manager,1,2020-10-07,,3.3,21,DevOps,L1,1,Trainee / Associate,0,1,5.232032854209446,5
+E0310,2025,1432000.0,Female,8,Support Manager,6,2023-07-05,,9.1,14,Customer Support,L6,6,Senior Manager,1,6,2.4914442162902124,4
+E0311,2025,1363000.0,Male,5,HR Partner,4,2024-07-20,,11.6,18,Human Resources,L4,4,Lead,0,4,1.4483230663928817,2
+E0312,2025,664000.0,Female,3,Data Engineer,1,2019-04-17,,4.3,12,Data & Analytics,L1,1,Trainee / Associate,0,1,6.707734428473648,4
+E0313,2025,970000.0,Female,6,Accountant,3,2024-10-25,,3.5,18,Finance,L3,3,Senior,0,3,1.1827515400410678,4
+E0314,2025,823000.0,Female,5,Recruiter,1,2020-03-10,,5.9,21,Human Resources,L1,1,Trainee / Associate,0,1,5.809719370294319,3
+E0315,2025,758000.0,Female,6,Financial Analyst,2,2023-01-21,,0.6,16,Finance,L2,2,Analyst,0,2,2.943189596167009,5
+E0316,2025,1592000.0,Male,3,Data Analyst,7,2023-02-16,,1.7,16,Data & Analytics,L7,7,Director and above,1,7,2.8720054757015743,3
+E0317,2025,1167000.0,Male,8,Support Lead,4,2025-03-16,,5.2,14,Customer Support,L4,4,Lead,0,4,0.7939767282683093,4
+E0318,2025,791000.0,Female,4,Site Reliability Engineer,2,2020-08-29,,9.9,14,DevOps,L2,2,Analyst,0,2,5.338809034907597,4
+E0319,2025,690000.0,Female,7,Sales Analyst,2,2017-02-19,,4.6,16,Sales,L2,2,Analyst,0,2,8.862422997946611,2
+E0320,2025,917000.0,Female,4,Site Reliability Engineer,3,2022-11-22,,7.3,21,DevOps,L3,3,Senior,0,3,3.1074606433949348,3
+E0321,2025,752000.0,Female,5,People Manager,2,2023-04-10,,1.6,12,Human Resources,L2,2,Analyst,0,2,2.726899383983573,4
+E0322,2025,1713000.0,Female,5,HR Partner,7,2017-10-01,,3.4,21,Human Resources,L7,7,Director and above,1,7,8.24914442162902,3
+E0323,2025,1165000.0,Male,3,Data Engineer,3,2024-10-10,,10.8,12,Data & Analytics,L3,3,Senior,0,3,1.2238193018480492,3
+E0324,2025,797000.0,Male,4,Platform Manager,1,2018-01-23,,5.8,16,DevOps,L1,1,Trainee / Associate,0,1,7.9370294318959616,2
+E0325,2025,933000.0,Female,4,Platform Manager,3,2022-11-24,,3.0,21,DevOps,L3,3,Senior,0,3,3.1019849418206706,3
+E0326,2025,1166000.0,Male,6,Financial Analyst,4,2017-04-28,,3.6,14,Finance,L4,4,Lead,0,4,8.676249144421629,3
+E0327,2025,736000.0,Male,1,Engineering Manager,1,2019-11-03,,7.6,12,Engineering,L1,1,Trainee / Associate,0,1,6.160164271047228,4
+E0328,2025,1255000.0,Male,2,QA Manager,4,2022-12-07,,10.6,16,Quality Assurance,L4,4,Lead,0,4,3.0663928815879533,4
+E0329,2025,837000.0,Male,7,Sales Analyst,1,2019-07-22,,3.3,16,Sales,L1,1,Trainee / Associate,0,1,6.444900752908967,5
+E0330,2025,829000.0,Male,5,HR Partner,1,2017-10-13,,3.3,16,Human Resources,L1,1,Trainee / Associate,0,1,8.216290212183436,5
+E0331,2025,808000.0,Male,7,Account Executive,2,2021-10-06,,3.1,21,Sales,L2,2,Analyst,0,2,4.2354551676933605,3
+E0332,2025,1300000.0,Male,1,Software Engineer,4,2017-10-07,,2.2,14,Engineering,L4,4,Lead,0,4,8.232717316906228,4
+E0333,2025,1570000.0,Male,1,Engineering Manager,5,2018-05-03,,3.4,18,Engineering,L5,5,Manager,1,5,7.663244353182751,3
+E0334,2025,1163000.0,Male,8,Support Lead,3,2018-10-03,,1.2,16,Customer Support,L3,3,Senior,0,3,7.24435318275154,2
+E0335,2025,1378000.0,Female,6,Financial Analyst,4,2019-10-12,,7.1,21,Finance,L4,4,Lead,0,4,6.220396988364135,3
+E0336,2025,1102000.0,Female,7,Sales Analyst,3,2022-06-24,,11.4,14,Sales,L3,3,Senior,0,3,3.5208761122518824,4
+E0337,2025,1720000.0,Female,1,Engineering Manager,7,2021-07-05,,1.2,12,Engineering,L7,7,Director and above,1,7,4.490075290896646,3
+E0338,2025,960000.0,Female,6,Financial Analyst,2,2019-10-27,,2.4,21,Finance,L2,2,Analyst,0,2,6.179329226557153,4
+E0339,2025,772000.0,Male,1,Architect,1,2022-03-10,,9.3,16,Engineering,L1,1,Trainee / Associate,0,1,3.811088295687885,3
+E0340,2025,1629000.0,Female,1,Software Engineer,5,2020-06-25,,4.7,18,Engineering,L5,5,Manager,1,5,5.516769336071184,3
+E0341,2025,1130000.0,Female,7,Sales Analyst,4,2018-01-05,,4.4,14,Sales,L4,4,Lead,0,4,7.98631074606434,3
+E0342,2025,630000.0,Male,4,Site Reliability Engineer,1,2018-03-14,,4.9,16,DevOps,L1,1,Trainee / Associate,0,1,7.800136892539356,4
+E0343,2025,1125000.0,Male,1,Architect,4,2017-08-12,,3.7,18,Engineering,L4,4,Lead,0,4,8.386036960985626,2
+E0344,2025,1440000.0,Female,4,DevOps Engineer,6,2024-01-31,,7.6,18,DevOps,L6,6,Senior Manager,1,6,1.9164955509924708,3
+E0345,2025,1047000.0,Male,6,Finance Manager,2,2018-02-16,,6.4,21,Finance,L2,2,Analyst,0,2,7.871321013004791,3
+E0346,2025,1093000.0,Female,3,Analytics Manager,4,2020-08-01,,5.0,14,Data & Analytics,L4,4,Lead,0,4,5.415468856947296,5
+E0347,2025,751000.0,Male,2,QA Engineer,1,2024-11-12,,9.2,21,Quality Assurance,L1,1,Trainee / Associate,0,1,1.1334702258726899,5
+E0348,2025,1345000.0,Male,7,Sales Analyst,5,2022-07-18,,9.9,14,Sales,L5,5,Manager,1,5,3.455167693360712,4
+E0349,2025,1025000.0,Female,3,Data Analyst,2,2019-12-09,,7.2,14,Data & Analytics,L2,2,Analyst,0,2,6.061601642710472,3
+E0350,2025,821000.0,Male,1,Software Engineer,2,2023-12-14,,4.3,18,Engineering,L2,2,Analyst,0,2,2.0479123887748116,3
+E0351,2025,1291000.0,Male,2,QA Engineer,4,2021-11-09,,9.0,16,Quality Assurance,L4,4,Lead,0,4,4.142368240930869,5
+E0352,2025,794000.0,Female,8,Support Specialist,1,2017-08-12,,3.6,18,Customer Support,L1,1,Trainee / Associate,0,1,8.386036960985626,2
+E0353,2025,1215000.0,Male,3,Data Analyst,4,2020-01-23,,4.4,21,Data & Analytics,L4,4,Lead,0,4,5.938398357289528,5
+E0354,2025,1207000.0,Female,1,Software Engineer,3,2024-12-08,,3.5,16,Engineering,L3,3,Senior,0,3,1.0622861054072552,5
+E0355,2025,1352000.0,Male,3,Data Analyst,5,2024-03-21,,6.8,12,Data & Analytics,L5,5,Manager,1,5,1.7796030116358659,3
+E0356,2025,679000.0,Male,7,Account Executive,1,2019-05-03,,6.7,18,Sales,L1,1,Trainee / Associate,0,1,6.663928815879535,3
+E0357,2025,1257000.0,Male,8,Support Lead,3,2021-09-29,,11.0,16,Customer Support,L3,3,Senior,0,3,4.254620123203286,4
+E0358,2025,1503000.0,Female,3,Analytics Manager,6,2019-10-16,,3.2,21,Data & Analytics,L6,6,Senior Manager,1,6,6.209445585215605,3
+E0359,2025,1263000.0,Female,1,Software Engineer,4,2022-03-11,,10.5,18,Engineering,L4,4,Lead,0,4,3.808350444900753,4
+E0360,2025,701000.0,Female,5,People Manager,1,2022-12-29,,10.8,12,Human Resources,L1,1,Trainee / Associate,0,1,3.0061601642710474,4
+E0361,2025,810000.0,Male,5,Recruiter,1,2017-02-26,,4.4,12,Human Resources,L1,1,Trainee / Associate,0,1,8.843258042436688,4
+E0362,2025,653000.0,Male,8,Support Lead,1,2022-01-16,,4.2,16,Customer Support,L1,1,Trainee / Associate,0,1,3.9561943874058865,3
+E0363,2025,973000.0,Male,8,Support Manager,3,2023-11-10,,1.6,12,Customer Support,L3,3,Senior,0,3,2.1409993155373033,3
+E0364,2025,1049000.0,Male,6,Accountant,4,2017-03-27,,5.2,14,Finance,L4,4,Lead,0,4,8.763860369609857,4
+E0365,2025,717000.0,Male,3,Analytics Manager,1,2024-09-30,,12.8,14,Data & Analytics,L1,1,Trainee / Associate,0,1,1.2511978097193703,5
+E0366,2025,1042000.0,Female,1,Software Engineer,2,2019-12-05,,6.0,14,Engineering,L2,2,Analyst,0,2,6.072553045859,4
+E0367,2025,590000.0,Female,2,QA Manager,1,2021-11-29,,2.3,12,Quality Assurance,L1,1,Trainee / Associate,0,1,4.087611225188227,3
+E0368,2025,1533000.0,Female,6,Accountant,5,2018-05-19,,5.4,18,Finance,L5,5,Manager,1,5,7.619438740588638,3
+E0369,2025,1664000.0,Female,7,Sales Analyst,6,2022-02-23,,2.1,16,Sales,L6,6,Senior Manager,1,6,3.8521560574948666,3
+E0370,2025,1475000.0,Female,1,Architect,6,2018-09-11,,0.4,21,Engineering,L6,6,Senior Manager,1,6,7.304585900068446,4
+E0371,2025,1096000.0,Female,7,Sales Analyst,4,2023-02-08,,6.5,18,Sales,L4,4,Lead,0,4,2.8939082819986313,2
+E0372,2025,1675000.0,Male,3,Analytics Manager,7,2020-03-08,,6.1,21,Data & Analytics,L7,7,Director and above,1,7,5.815195071868583,3
+E0373,2025,1185000.0,Male,6,Accountant,4,2020-12-22,,7.7,12,Finance,L4,4,Lead,0,4,5.023956194387406,3
+E0374,2025,809000.0,Male,3,Analytics Manager,2,2025-04-09,,8.0,21,Data & Analytics,L2,2,Analyst,0,2,0.7282683093771389,3
+E0375,2025,744000.0,Male,7,Account Executive,1,2021-10-07,,9.7,18,Sales,L1,1,Trainee / Associate,0,1,4.232717316906228,3
+E0376,2025,937000.0,Male,8,Support Manager,3,2024-11-25,,4.0,12,Customer Support,L3,3,Senior,0,3,1.0978781656399725,3
+E0377,2025,655000.0,Female,7,Account Executive,1,2023-05-31,,5.0,14,Sales,L1,1,Trainee / Associate,0,1,2.5872689938398357,5
+E0378,2025,856000.0,Female,3,Analytics Manager,3,2018-05-17,,1.3,12,Data & Analytics,L3,3,Senior,0,3,7.624914442162902,3
+E0379,2025,832000.0,Female,7,Sales Analyst,2,2021-06-08,,7.3,18,Sales,L2,2,Analyst,0,2,4.563997262149213,3
+E0380,2025,1424000.0,Male,1,Software Engineer,4,2022-12-19,,11.8,16,Engineering,L4,4,Lead,0,4,3.033538672142368,1
+E0381,2025,841000.0,Female,6,Accountant,2,2018-04-15,,6.8,16,Finance,L2,2,Analyst,0,2,7.712525667351129,3
+E0382,2025,557000.0,Female,2,QA Analyst,1,2025-06-08,,1.8,18,Quality Assurance,L1,1,Trainee / Associate,0,1,0.5639972621492129,5
+E0383,2025,985000.0,Female,7,Account Executive,3,2021-07-28,,3.2,12,Sales,L3,3,Senior,0,3,4.427104722792608,3
+E0384,2025,1043000.0,Male,7,Sales Manager,3,2017-01-05,,1.9,21,Sales,L3,3,Senior,0,3,8.985626283367557,3
+E0385,2025,1115000.0,Female,2,QA Analyst,4,2020-02-19,,3.9,21,Quality Assurance,L4,4,Lead,0,4,5.864476386036961,1
+E0386,2025,998000.0,Male,1,Architect,3,2017-02-09,,1.9,21,Engineering,L3,3,Senior,0,3,8.889801505817934,3
+E0387,2025,948000.0,Male,1,Software Engineer,3,2019-03-02,,2.2,12,Engineering,L3,3,Senior,0,3,6.833675564681725,4
+E0388,2025,1249000.0,Female,7,Account Executive,5,2023-05-21,,1.6,21,Sales,L5,5,Manager,1,5,2.614647501711157,5
+E0389,2025,1422000.0,Male,5,Recruiter,5,2017-04-05,,3.4,21,Human Resources,L5,5,Manager,1,5,8.739219712525667,3
+E0390,2025,1002000.0,Male,4,DevOps Engineer,2,2021-09-17,,5.1,12,DevOps,L2,2,Analyst,0,2,4.287474332648871,3
+E0391,2025,1026000.0,Male,6,Accountant,2,2022-04-24,,10.5,12,Finance,L2,2,Analyst,0,2,3.6878850102669403,4
+E0392,2025,880000.0,Male,2,QA Analyst,1,2021-12-16,,10.2,18,Quality Assurance,L1,1,Trainee / Associate,0,1,4.041067761806982,4
+E0393,2025,1548000.0,Male,6,Finance Manager,6,2017-04-17,,4.3,21,Finance,L6,6,Senior Manager,1,6,8.706365503080082,3
+E0394,2025,601000.0,Female,1,Software Engineer,1,2023-07-23,,3.3,16,Engineering,L1,1,Trainee / Associate,0,1,2.4421629021218343,3
+E0395,2025,1086000.0,Male,3,Data Analyst,2,2023-04-11,,11.3,14,Data & Analytics,L2,2,Analyst,0,2,2.724161533196441,4
+E0396,2025,795000.0,Male,6,Finance Manager,2,2020-09-08,,7.2,12,Finance,L2,2,Analyst,0,2,5.3114305270362765,4
+E0397,2025,968000.0,Female,6,Financial Analyst,3,2018-08-07,,4.7,21,Finance,L3,3,Senior,0,3,7.40041067761807,4
+E0398,2025,1436000.0,Male,2,QA Engineer,6,2020-06-03,,4.0,16,Quality Assurance,L6,6,Senior Manager,1,6,5.577002053388091,3
+E0399,2025,1400000.0,Male,4,DevOps Engineer,4,2023-08-03,,9.9,16,DevOps,L4,4,Lead,0,4,2.412046543463381,3
+E0400,2025,957000.0,Male,2,QA Analyst,3,2025-06-05,,3.1,21,Quality Assurance,L3,3,Senior,0,3,0.5722108145106092,3
+E0401,2025,1567000.0,Female,8,Support Manager,6,2022-04-25,,9.0,21,Customer Support,L6,6,Senior Manager,1,6,3.685147159479808,3
+E0402,2025,1160000.0,Male,5,HR Partner,3,2019-08-01,,1.2,21,Human Resources,L3,3,Senior,0,3,6.417522245037645,4
+E0403,2025,594000.0,Male,2,QA Analyst,1,2017-06-06,,3.0,14,Quality Assurance,L1,1,Trainee / Associate,0,1,8.569472963723477,4
+E0404,2025,1420000.0,Female,7,Sales Analyst,5,2024-05-08,,13.5,21,Sales,L5,5,Manager,1,5,1.648186173853525,4
+E0405,2025,1487000.0,Female,8,Support Manager,5,2020-10-27,,8.8,14,Customer Support,L5,5,Manager,1,5,5.177275838466803,3
+E0406,2025,1098000.0,Male,5,HR Partner,3,2023-05-14,,13.4,14,Human Resources,L3,3,Senior,0,3,2.6338124572210813,3
+E0407,2025,914000.0,Male,2,QA Manager,2,2022-04-29,,10.1,18,Quality Assurance,L2,2,Analyst,0,2,3.67419575633128,3
+E0408,2025,726000.0,Female,2,QA Engineer,1,2022-10-25,,11.2,18,Quality Assurance,L1,1,Trainee / Associate,0,1,3.184120465434634,4
+E0409,2025,664000.0,Female,5,People Manager,1,2025-01-14,,3.6,12,Human Resources,L1,1,Trainee / Associate,0,1,0.9609856262833676,4
+E0410,2025,1355000.0,Female,6,Finance Manager,5,2022-02-28,,6.7,12,Finance,L5,5,Manager,1,5,3.838466803559206,4
+E0411,2025,1134000.0,Male,3,Analytics Manager,3,2021-05-31,,4.4,14,Data & Analytics,L3,3,Senior,0,3,4.58590006844627,3
+E0412,2025,980000.0,Male,6,Accountant,3,2019-11-02,,7.0,18,Finance,L3,3,Senior,0,3,6.16290212183436,2
+E0413,2025,1052000.0,Male,8,Support Specialist,3,2020-02-18,,6.8,12,Customer Support,L3,3,Senior,0,3,5.867214236824093,3
+E0414,2025,1504000.0,Female,2,QA Engineer,4,2021-12-24,,11.2,12,Quality Assurance,L4,4,Lead,0,4,4.0191649555099245,4
+E0415,2025,994000.0,Female,7,Sales Manager,1,2020-09-01,,6.7,14,Sales,L1,1,Trainee / Associate,0,1,5.330595482546201,4
+E0416,2025,1382000.0,Male,1,Software Engineer,5,2021-08-11,,8.5,18,Engineering,L5,5,Manager,1,5,4.388774811772758,4
+E0417,2025,779000.0,Female,8,Support Specialist,2,2023-10-29,,2.9,14,Customer Support,L2,2,Analyst,0,2,2.1738535249828885,3
+E0418,2025,719000.0,Female,2,QA Analyst,1,2022-08-05,,7.9,18,Quality Assurance,L1,1,Trainee / Associate,0,1,3.405886379192334,3
+E0419,2025,768000.0,Male,5,Recruiter,2,2025-03-21,,6.8,14,Human Resources,L2,2,Analyst,0,2,0.7802874743326489,4
+E0420,2025,1265000.0,Male,4,Platform Manager,5,2022-11-06,,7.8,12,DevOps,L5,5,Manager,1,5,3.1512662559890487,3
+E0421,2025,671000.0,Female,8,Support Lead,1,2019-03-21,,5.7,21,Customer Support,L1,1,Trainee / Associate,0,1,6.781656399726215,4
+E0422,2025,1138000.0,Male,8,Support Specialist,4,2021-10-17,,0.5,16,Customer Support,L4,4,Lead,0,4,4.205338809034908,3
+E0423,2025,912000.0,Female,4,DevOps Engineer,1,2022-08-13,,4.6,18,DevOps,L1,1,Trainee / Associate,0,1,3.383983572895277,2
+E0424,2025,1178000.0,Female,7,Sales Analyst,5,2025-06-06,,7.1,18,Sales,L5,5,Manager,1,5,0.5694729637234771,4
+E0425,2025,1278000.0,Female,7,Sales Analyst,4,2019-09-20,,2.5,16,Sales,L4,4,Lead,0,4,6.28062970568104,4
+E0426,2025,1575000.0,Male,2,QA Manager,6,2021-09-29,,10.4,16,Quality Assurance,L6,6,Senior Manager,1,6,4.254620123203286,4
+E0427,2025,762000.0,Female,7,Sales Manager,2,2018-11-21,,1.4,12,Sales,L2,2,Analyst,0,2,7.110198494182067,4
+E0428,2025,1435000.0,Female,7,Sales Analyst,4,2024-01-02,,12.2,14,Sales,L4,4,Lead,0,4,1.995893223819302,1
+E0429,2025,847000.0,Male,2,QA Analyst,1,2025-06-07,,15.3,12,Quality Assurance,L1,1,Trainee / Associate,0,1,0.5667351129363449,2
+E0430,2025,865000.0,Female,5,HR Partner,3,2020-10-12,,3.3,16,Human Resources,L3,3,Senior,0,3,5.218343600273785,5
+E0431,2025,1119000.0,Female,5,People Manager,4,2019-10-16,,5.0,18,Human Resources,L4,4,Lead,0,4,6.209445585215605,3
+E0432,2025,1450000.0,Male,6,Accountant,6,2022-05-05,,5.5,12,Finance,L6,6,Senior Manager,1,6,3.6577686516084875,3
+E0433,2025,1385000.0,Male,8,Support Specialist,6,2018-04-19,,2.9,14,Customer Support,L6,6,Senior Manager,1,6,7.701574264202601,4
+E0434,2025,1436000.0,Male,8,Support Specialist,5,2020-09-25,,9.0,21,Customer Support,L5,5,Manager,1,5,5.2648870636550305,2
+E0435,2025,1814000.0,Male,4,Platform Manager,6,2023-06-05,,3.6,16,DevOps,L6,6,Senior Manager,1,6,2.5735797399041753,3
+E0436,2025,1295000.0,Female,3,Analytics Manager,4,2023-08-17,,7.0,12,Data & Analytics,L4,4,Lead,0,4,2.3737166324435317,3
+E0437,2025,857000.0,Female,1,Architect,2,2022-08-20,,3.3,21,Engineering,L2,2,Analyst,0,2,3.3648186173853527,4
+E0438,2025,1092000.0,Female,3,Data Engineer,4,2020-05-10,,3.7,14,Data & Analytics,L4,4,Lead,0,4,5.642710472279261,4
+E0439,2025,1553000.0,Male,5,HR Partner,4,2023-06-23,,9.7,18,Human Resources,L4,4,Lead,0,4,2.524298425735797,4
+E0440,2025,1665000.0,Male,3,Data Engineer,6,2021-10-16,,4.7,12,Data & Analytics,L6,6,Senior Manager,1,6,4.20807665982204,3
+E0441,2025,1285000.0,Male,3,Analytics Manager,4,2024-10-04,,13.1,18,Data & Analytics,L4,4,Lead,0,4,1.2402464065708418,2
+E0442,2025,961000.0,Male,4,DevOps Engineer,3,2023-06-04,,1.5,12,DevOps,L3,3,Senior,0,3,2.5763175906913074,2
+E0443,2025,1343000.0,Male,3,Data Engineer,5,2017-03-22,,4.7,21,Data & Analytics,L5,5,Manager,1,5,8.777549623545516,3
+E0444,2025,793000.0,Female,4,Platform Manager,1,2023-04-23,,8.1,12,DevOps,L1,1,Trainee / Associate,0,1,2.6913073237508556,4
+E0445,2025,1052000.0,Female,5,People Manager,3,2018-07-27,,1.6,16,Human Resources,L3,3,Senior,0,3,7.430527036276523,3
+E0446,2025,786000.0,Male,2,QA Manager,2,2021-04-13,,4.7,18,Quality Assurance,L2,2,Analyst,0,2,4.717316906228611,4
+E0447,2025,1651000.0,Female,3,Data Engineer,7,2021-11-12,,5.7,21,Data & Analytics,L7,7,Director and above,1,7,4.134154688569473,4
+E0448,2025,1621000.0,Female,2,QA Engineer,7,2019-06-30,,6.1,12,Quality Assurance,L7,7,Director and above,1,7,6.505133470225872,3
+E0449,2025,752000.0,Male,1,Software Engineer,2,2025-06-07,,5.2,21,Engineering,L2,2,Analyst,0,2,0.5667351129363449,3
+E0450,2025,681000.0,Female,3,Analytics Manager,1,2021-04-01,,5.1,12,Data & Analytics,L1,1,Trainee / Associate,0,1,4.7501711156741955,3
+E0451,2025,1095000.0,Male,4,Site Reliability Engineer,4,2017-12-23,,3.8,16,DevOps,L4,4,Lead,0,4,8.021902806297057,2
+E0452,2025,672000.0,Male,2,QA Engineer,1,2019-02-18,,9.2,21,Quality Assurance,L1,1,Trainee / Associate,0,1,6.86652977412731,3
+E0453,2025,814000.0,Female,3,Analytics Manager,2,2017-07-28,,4.7,14,Data & Analytics,L2,2,Analyst,0,2,8.427104722792608,5
+E0454,2025,1650000.0,Male,1,Engineering Manager,6,2022-06-23,,10.9,21,Engineering,L6,6,Senior Manager,1,6,3.5236139630390144,4
+E0455,2025,1264000.0,Male,1,Software Engineer,4,2019-10-22,,6.7,16,Engineering,L4,4,Lead,0,4,6.193018480492813,3
+E0456,2025,1178000.0,Female,7,Sales Analyst,4,2017-05-10,,6.5,18,Sales,L4,4,Lead,0,4,8.643394934976044,5
+E0457,2025,730000.0,Female,6,Finance Manager,1,2024-09-04,,7.5,16,Finance,L1,1,Trainee / Associate,0,1,1.322381930184805,3
+E0458,2025,1167000.0,Female,3,Analytics Manager,3,2019-10-19,,6.9,16,Data & Analytics,L3,3,Senior,0,3,6.201232032854209,3
+E0459,2025,900000.0,Female,4,DevOps Engineer,2,2023-12-01,,7.7,12,DevOps,L2,2,Analyst,0,2,2.083504449007529,2
+E0460,2025,1238000.0,Female,6,Finance Manager,2,2020-08-03,,8.6,12,Finance,L2,2,Analyst,0,2,5.409993155373032,3
+E0461,2025,1222000.0,Female,6,Finance Manager,5,2022-12-07,,5.3,16,Finance,L5,5,Manager,1,5,3.0663928815879533,4
+E0462,2025,1037000.0,Female,6,Accountant,4,2019-04-08,,3.4,12,Finance,L4,4,Lead,0,4,6.7323750855578375,5
+E0463,2025,1527000.0,Female,5,People Manager,7,2020-04-01,,10.6,12,Human Resources,L7,7,Director and above,1,7,5.749486652977413,4
+E0464,2025,1019000.0,Female,7,Sales Analyst,3,2019-04-28,,5.3,21,Sales,L3,3,Senior,0,3,6.677618069815195,2
+E0465,2025,1643000.0,Male,3,Data Engineer,5,2017-07-31,,4.9,14,Data & Analytics,L5,5,Manager,1,5,8.41889117043121,4
+E0466,2025,1224000.0,Female,1,Architect,5,2020-12-27,,8.7,16,Engineering,L5,5,Manager,1,5,5.0102669404517455,3
+E0467,2025,972000.0,Male,7,Account Executive,3,2025-03-09,,4.6,18,Sales,L3,3,Senior,0,3,0.813141683778234,2
+E0468,2025,1022000.0,Female,3,Data Analyst,3,2025-03-07,,11.1,12,Data & Analytics,L3,3,Senior,0,3,0.8186173853524983,4
+E0469,2025,1051000.0,Female,3,Data Analyst,2,2022-02-07,,5.8,12,Data & Analytics,L2,2,Analyst,0,2,3.89596167008898,2
+E0470,2025,1686000.0,Female,1,Software Engineer,6,2018-03-12,,2.3,16,Engineering,L6,6,Senior Manager,1,6,7.8056125941136205,3
+E0471,2025,1334000.0,Female,2,QA Analyst,5,2018-02-26,,0.9,21,Quality Assurance,L5,5,Manager,1,5,7.84394250513347,4
+E0472,2025,645000.0,Male,2,QA Engineer,1,2018-03-28,,4.0,16,Quality Assurance,L1,1,Trainee / Associate,0,1,7.761806981519507,4
+E0473,2025,959000.0,Male,6,Financial Analyst,2,2022-08-07,,4.3,16,Finance,L2,2,Analyst,0,2,3.40041067761807,4
+E0474,2025,764000.0,Female,7,Sales Manager,2,2018-01-06,,5.4,14,Sales,L2,2,Analyst,0,2,7.983572895277208,3
+E0475,2025,1085000.0,Female,7,Sales Manager,3,2024-10-11,,10.0,14,Sales,L3,3,Senior,0,3,1.2210814510609171,3
+E0476,2025,1308000.0,Female,6,Accountant,5,2018-07-25,,4.6,21,Finance,L5,5,Manager,1,5,7.436002737850787,4
+E0477,2025,663000.0,Female,3,Data Analyst,1,2018-08-02,,6.4,12,Data & Analytics,L1,1,Trainee / Associate,0,1,7.41409993155373,4
+E0478,2025,823000.0,Male,3,Data Analyst,2,2021-10-02,,5.0,18,Data & Analytics,L2,2,Analyst,0,2,4.246406570841889,4
+E0479,2025,1173000.0,Female,2,QA Manager,3,2020-07-06,,3.1,18,Quality Assurance,L3,3,Senior,0,3,5.486652977412731,3
+E0480,2025,951000.0,Male,1,Software Engineer,2,2023-05-25,,12.1,18,Engineering,L2,2,Analyst,0,2,2.6036960985626285,3
+E0481,2025,1298000.0,Male,6,Financial Analyst,4,2018-02-03,,3.6,21,Finance,L4,4,Lead,0,4,7.906913073237509,4
+E0482,2025,885000.0,Male,3,Analytics Manager,3,2025-03-04,,4.2,16,Data & Analytics,L3,3,Senior,0,3,0.8268309377138946,3
+E0483,2025,1332000.0,Female,7,Account Executive,6,2024-08-29,,4.7,21,Sales,L6,6,Senior Manager,1,6,1.3388090349075976,2
+E0484,2025,1476000.0,Male,5,People Manager,5,2017-12-24,,0.7,16,Human Resources,L5,5,Manager,1,5,8.019164955509925,4
+E0485,2025,1924000.0,Male,3,Data Analyst,7,2022-06-23,,11.1,16,Data & Analytics,L7,7,Director and above,1,7,3.5236139630390144,3
+E0486,2025,1492000.0,Male,8,Support Lead,5,2024-08-27,,13.6,12,Customer Support,L5,5,Manager,1,5,1.3442847364818618,4
+E0487,2025,894000.0,Female,7,Account Executive,2,2022-03-09,,3.0,18,Sales,L2,2,Analyst,0,2,3.813826146475017,2
+E0488,2025,1402000.0,Male,4,Platform Manager,4,2018-04-14,,4.5,21,DevOps,L4,4,Lead,0,4,7.715263518138261,4
+E0489,2025,1222000.0,Male,5,HR Partner,4,2017-12-09,,4.6,18,Human Resources,L4,4,Lead,0,4,8.060232717316905,3
+E0490,2025,1580000.0,Male,7,Sales Analyst,6,2023-05-26,,5.1,21,Sales,L6,6,Senior Manager,1,6,2.6009582477754964,5
+E0491,2025,731000.0,Male,6,Financial Analyst,1,2022-02-22,,10.0,16,Finance,L1,1,Trainee / Associate,0,1,3.8548939082819986,2
+E0492,2025,909000.0,Male,7,Sales Manager,3,2018-11-12,,1.3,16,Sales,L3,3,Senior,0,3,7.134839151266256,4
+E0493,2025,1693000.0,Male,6,Financial Analyst,6,2022-02-23,,6.5,21,Finance,L6,6,Senior Manager,1,6,3.8521560574948666,5
+E0494,2025,1628000.0,Female,1,Architect,6,2018-03-01,,2.8,21,Engineering,L6,6,Senior Manager,1,6,7.835728952772074,3
+E0495,2025,787000.0,Female,8,Support Specialist,2,2022-03-16,,8.3,18,Customer Support,L2,2,Analyst,0,2,3.7946611909650922,4
+E0496,2025,1177000.0,Female,3,Data Engineer,5,2022-10-27,,3.9,16,Data & Analytics,L5,5,Manager,1,5,3.1786447638603694,2
+E0497,2025,1521000.0,Male,3,Data Engineer,6,2022-10-20,,10.3,12,Data & Analytics,L6,6,Senior Manager,1,6,3.1978097193702943,2
+E0498,2025,962000.0,Female,3,Data Analyst,3,2023-02-05,,3.7,21,Data & Analytics,L3,3,Senior,0,3,2.9021218343600275,3
+E0499,2025,1431000.0,Female,7,Sales Analyst,4,2020-02-01,,10.0,12,Sales,L4,4,Lead,0,4,5.9137577002053385,3
+E0500,2025,1467000.0,Female,2,QA Engineer,6,2017-11-09,,5.6,18,Quality Assurance,L6,6,Senior Manager,1,6,8.14236824093087,3
+E0502,2025,1419000.0,Male,5,HR Partner,4,2022-07-24,2025-02-01,7.7,14,Human Resources,L4,4,Lead,0,4,3.4387405886379194,4
+E0503,2025,1053000.0,Female,8,Support Lead,3,2020-01-18,2025-07-29,6.3,21,Customer Support,L3,3,Senior,0,3,5.952087611225188,5
+E0508,2025,762000.0,Male,7,Sales Manager,2,2020-07-23,2025-03-24,5.9,21,Sales,L2,2,Analyst,0,2,5.4401095140314855,4
+E0516,2025,684000.0,Male,6,Financial Analyst,1,2021-04-16,2025-06-23,5.1,14,Finance,L1,1,Trainee / Associate,0,1,4.7091033538672145,2
+E0520,2025,982000.0,Female,4,Platform Manager,3,2025-06-20,2025-08-26,11.7,16,DevOps,L3,3,Senior,0,3,0.5311430527036276,5
+E0521,2025,980000.0,Female,8,Support Lead,2,2017-02-25,2025-08-23,4.1,16,Customer Support,L2,2,Analyst,0,2,8.845995893223819,2
+E0526,2025,1068000.0,Male,3,Data Analyst,4,2018-08-08,2025-02-10,5.7,12,Data & Analytics,L4,4,Lead,0,4,7.397672826830938,4
+E0529,2025,1727000.0,Male,8,Support Specialist,6,2017-04-19,2025-04-20,3.2,14,Customer Support,L6,6,Senior Manager,1,6,8.700889801505818,3
+E0531,2025,1410000.0,Male,1,Software Engineer,4,2024-07-25,2025-05-12,13.5,21,Engineering,L4,4,Lead,0,4,1.434633812457221,4
+E0532,2025,1098000.0,Male,5,People Manager,2,2017-01-27,2025-07-08,4.2,14,Human Resources,L2,2,Analyst,0,2,8.92539356605065,4
+E0534,2025,1213000.0,Male,5,HR Partner,4,2023-08-09,2025-01-24,5.4,18,Human Resources,L4,4,Lead,0,4,2.3956194387405887,2
+E0535,2025,1260000.0,Female,5,Recruiter,4,2024-05-15,2025-09-12,14.1,16,Human Resources,L4,4,Lead,0,4,1.6290212183436004,5
+E0536,2025,1400000.0,Female,4,Site Reliability Engineer,6,2022-11-21,2025-02-27,5.3,14,DevOps,L6,6,Senior Manager,1,6,3.1101984941820673,4
+E0537,2025,1113000.0,Female,8,Support Manager,4,2023-06-18,2025-07-12,2.4,21,Customer Support,L4,4,Lead,0,4,2.537987679671458,4
+E0541,2025,747000.0,Male,2,QA Engineer,1,2025-03-09,2025-12-18,11.4,21,Quality Assurance,L1,1,Trainee / Associate,0,1,0.813141683778234,4
+E0542,2025,1491000.0,Male,6,Finance Manager,6,2018-07-19,2025-06-30,7.1,18,Finance,L6,6,Senior Manager,1,6,7.452429842573579,4
+E0543,2025,982000.0,Female,5,Recruiter,3,2019-09-16,2025-10-14,4.7,21,Human Resources,L3,3,Senior,0,3,6.291581108829569,2
+E0545,2025,1172000.0,Other,7,Sales Manager,4,2017-11-27,2025-12-23,3.4,16,Sales,L4,4,Lead,0,4,8.093086926762492,3
+E0546,2025,1191000.0,Male,1,Architect,3,2021-05-05,2025-09-19,7.2,18,Engineering,L3,3,Senior,0,3,4.657084188911704,3
+E0547,2025,1421000.0,Male,1,Software Engineer,5,2019-10-21,2025-07-23,7.4,14,Engineering,L5,5,Manager,1,5,6.195756331279945,4
+E0548,2025,1203000.0,Male,4,Site Reliability Engineer,4,2021-02-11,2025-07-27,3.8,14,DevOps,L4,4,Lead,0,4,4.884325804243669,3
+E0552,2025,804000.0,Male,4,DevOps Engineer,2,2023-12-21,2025-04-08,4.7,12,DevOps,L2,2,Analyst,0,2,2.028747433264887,3
+E0561,2025,1078000.0,Male,6,Finance Manager,4,2025-04-28,2025-10-05,2.4,14,Finance,L4,4,Lead,0,4,0.676249144421629,4
+E0567,2025,843000.0,Male,7,Sales Analyst,2,2021-07-06,2025-07-02,4.0,16,Sales,L2,2,Analyst,0,2,4.487337440109514,3
+E0570,2025,1001000.0,Male,4,Site Reliability Engineer,3,2023-06-14,2025-12-30,4.7,16,DevOps,L3,3,Senior,0,3,2.5489390828199863,2
+E0571,2025,815000.0,Female,5,Recruiter,1,2023-03-12,2025-08-16,7.8,12,Human Resources,L1,1,Trainee / Associate,0,1,2.8062970568104038,4
+E0575,2025,1482000.0,Female,3,Data Engineer,5,2025-03-24,2025-08-28,7.3,12,Data & Analytics,L5,5,Manager,1,5,0.7720739219712526,4
+E0578,2025,1224000.0,Male,2,QA Engineer,4,2024-11-26,2025-03-01,4.6,18,Quality Assurance,L4,4,Lead,0,4,1.0951403148528405,3
+E0582,2025,734000.0,Female,4,DevOps Engineer,1,2017-03-24,2025-03-27,2.6,18,DevOps,L1,1,Trainee / Associate,0,1,8.772073921971252,4
+E0583,2025,969000.0,Male,2,QA Analyst,3,2024-11-21,2025-12-31,3.6,21,Quality Assurance,L3,3,Senior,0,3,1.108829568788501,3
+E0584,2025,982000.0,Male,5,HR Partner,2,2025-05-04,2025-06-08,7.4,14,Human Resources,L2,2,Analyst,0,2,0.6598220396988365,3
+E0587,2025,1191000.0,Female,8,Support Manager,4,2023-05-10,2025-07-26,6.3,18,Customer Support,L4,4,Lead,0,4,2.64476386036961,3
+E0590,2025,786000.0,Female,7,Sales Analyst,1,2022-11-19,2025-09-11,11.6,21,Sales,L1,1,Trainee / Associate,0,1,3.1156741957563314,3
+E0594,2025,1534000.0,Female,5,People Manager,5,2024-07-01,2025-11-27,8.3,14,Human Resources,L5,5,Manager,1,5,1.5003422313483916,3
+E0596,2025,1027000.0,Female,2,QA Analyst,3,2021-03-26,2025-08-26,7.0,16,Quality Assurance,L3,3,Senior,0,3,4.766598220396989,3
+E0597,2025,833000.0,Female,6,Financial Analyst,1,2021-02-06,2025-12-23,6.2,16,Finance,L1,1,Trainee / Associate,0,1,4.898015058179329,3
+E0599,2025,1189000.0,Male,3,Data Engineer,4,2024-04-06,2025-11-15,10.0,12,Data & Analytics,L4,4,Lead,0,4,1.7357973990417521,4
+E0600,2025,1102000.0,Female,2,QA Analyst,3,2024-12-20,2025-02-19,6.2,21,Quality Assurance,L3,3,Senior,0,3,1.0294318959616702,3
+E0601,2025,666000.0,Male,6,Finance Manager,1,2023-08-01,2025-09-08,4.9,18,Finance,L1,1,Trainee / Associate,0,1,2.4175222450376452,2
+E0605,2025,1022000.0,Female,3,Analytics Manager,2,2019-07-15,2025-09-07,6.2,14,Data & Analytics,L2,2,Analyst,0,2,6.464065708418891,3
+E0606,2025,1157000.0,Female,7,Sales Analyst,4,2024-08-25,2025-11-05,6.8,21,Sales,L4,4,Lead,0,4,1.3497604380561259,3
+E0613,2025,1195000.0,Female,6,Accountant,5,2025-03-11,2025-11-13,6.0,16,Finance,L5,5,Manager,1,5,0.8076659822039699,3
+E0615,2025,927000.0,Male,7,Account Executive,2,2021-05-04,2025-03-16,1.6,16,Sales,L2,2,Analyst,0,2,4.659822039698836,3
+E0618,2025,1386000.0,Male,6,Financial Analyst,5,2024-09-12,2025-04-19,8.3,16,Finance,L5,5,Manager,1,5,1.3004791238877482,3
+E0621,2025,1568000.0,Other,2,QA Engineer,6,2025-05-27,2025-09-11,5.1,14,Quality Assurance,L6,6,Senior Manager,1,6,0.5968514715947981,4
+E0624,2025,853000.0,Male,3,Data Engineer,2,2023-09-20,2025-07-31,4.9,14,Data & Analytics,L2,2,Analyst,0,2,2.2806297056810405,3
+E0627,2025,759000.0,Male,6,Financial Analyst,1,2022-12-10,2025-02-03,8.4,16,Finance,L1,1,Trainee / Associate,0,1,3.058179329226557,4
+E0629,2025,850000.0,Male,7,Sales Manager,2,2025-06-05,2025-08-29,6.8,16,Sales,L2,2,Analyst,0,2,0.5722108145106092,2
+E0632,2025,743000.0,Female,1,Architect,2,2023-11-03,2025-08-28,3.5,21,Engineering,L2,2,Analyst,0,2,2.1601642710472277,1
+E0633,2025,1115000.0,Male,7,Sales Manager,3,2019-03-02,2025-10-08,6.7,14,Sales,L3,3,Senior,0,3,6.833675564681725,5
+E0635,2025,1573000.0,Male,2,QA Engineer,6,2025-01-11,2025-11-12,12.5,21,Quality Assurance,L6,6,Senior Manager,1,6,0.9691991786447639,1
+E0636,2025,1295000.0,Male,1,Engineering Manager,5,2025-02-18,2025-04-09,6.2,21,Engineering,L5,5,Manager,1,5,0.865160848733744,4
+E0637,2025,651000.0,Male,2,QA Analyst,1,2019-12-12,2025-04-02,3.7,12,Quality Assurance,L1,1,Trainee / Associate,0,1,6.053388090349076,4
+E0646,2025,646000.0,Male,8,Support Manager,1,2024-02-14,2025-12-04,4.9,16,Customer Support,L1,1,Trainee / Associate,0,1,1.8781656399726214,3
+E0648,2025,778000.0,Female,8,Support Lead,1,2017-09-26,2025-04-07,2.9,12,Customer Support,L1,1,Trainee / Associate,0,1,8.262833675564682,3
+E0649,2025,729000.0,Male,3,Data Engineer,1,2021-06-11,2025-12-06,10.1,21,Data & Analytics,L1,1,Trainee / Associate,0,1,4.555783709787817,4
+E0651,2025,1058000.0,Female,3,Data Engineer,4,2017-03-21,2025-08-04,1.9,16,Data & Analytics,L4,4,Lead,0,4,8.780287474332649,4
+E0652,2025,1111000.0,Male,1,Architect,2,2024-12-03,2025-09-08,8.2,21,Engineering,L2,2,Analyst,0,2,1.0759753593429158,3
+E0653,2025,1057000.0,Female,5,Recruiter,3,2025-05-30,2025-07-17,9.1,18,Human Resources,L3,3,Senior,0,3,0.5886379192334018,4
+E0663,2025,1455000.0,Female,4,DevOps Engineer,6,2025-04-22,2025-10-23,7.5,16,DevOps,L6,6,Senior Manager,1,6,0.6926762491444216,2
+E0668,2025,1170000.0,Female,6,Accountant,4,2017-04-27,2025-05-24,6.2,18,Finance,L4,4,Lead,0,4,8.678986995208762,2
+E0669,2025,1193000.0,Male,7,Sales Manager,3,2023-10-07,2025-08-19,12.7,18,Sales,L3,3,Senior,0,3,2.2340862422997945,4
+E0673,2025,1724000.0,Female,7,Sales Analyst,7,2022-01-31,2025-08-25,8.8,12,Sales,L7,7,Director and above,1,7,3.915126625598905,4
+E0674,2025,851000.0,Male,8,Support Manager,1,2020-11-03,2025-04-13,3.8,16,Customer Support,L1,1,Trainee / Associate,0,1,5.158110882956879,5
+E0677,2025,933000.0,Male,7,Sales Analyst,2,2022-11-08,2025-04-18,2.3,16,Sales,L2,2,Analyst,0,2,3.1457905544147846,3
+E0683,2025,1167000.0,Male,7,Sales Manager,3,2024-06-27,2025-08-22,13.4,21,Sales,L3,3,Senior,0,3,1.51129363449692,5
+E0686,2025,739000.0,Other,5,Recruiter,1,2023-02-20,2025-01-13,9.8,16,Human Resources,L1,1,Trainee / Associate,0,1,2.861054072553046,4
+E0687,2025,629000.0,Male,6,Accountant,1,2025-02-05,2025-04-22,4.9,18,Finance,L1,1,Trainee / Associate,0,1,0.9007529089664613,3
+E0691,2025,603000.0,Female,4,Site Reliability Engineer,1,2022-10-26,2025-02-20,5.5,18,DevOps,L1,1,Trainee / Associate,0,1,3.1813826146475015,5
+E0692,2025,879000.0,Female,4,Platform Manager,3,2018-01-31,2025-05-26,2.5,21,DevOps,L3,3,Senior,0,3,7.915126625598905,5
+E0703,2025,617000.0,Male,2,QA Manager,1,2024-05-06,2025-04-29,2.2,21,Quality Assurance,L1,1,Trainee / Associate,0,1,1.6536618754277892,2
+E0710,2025,826000.0,Male,3,Analytics Manager,2,2025-04-20,2025-07-24,5.2,16,Data & Analytics,L2,2,Analyst,0,2,0.6981519507186859,3
+E0713,2025,1271000.0,Male,8,Support Manager,4,2024-06-08,2025-12-05,10.5,16,Customer Support,L4,4,Lead,0,4,1.5633127994524298,3
+E0719,2025,671000.0,Female,5,Recruiter,1,2021-08-08,2025-09-01,6.1,18,Human Resources,L1,1,Trainee / Associate,0,1,4.396988364134154,3
+E0720,2025,615000.0,Female,4,Platform Manager,1,2025-03-07,2025-10-09,4.4,18,DevOps,L1,1,Trainee / Associate,0,1,0.8186173853524983,3
+E0721,2025,1696000.0,Male,8,Support Lead,6,2023-12-30,2025-03-26,11.5,16,Customer Support,L6,6,Senior Manager,1,6,2.004106776180698,4
+E0722,2025,1661000.0,Female,3,Data Engineer,7,2024-08-19,2025-07-03,11.1,21,Data & Analytics,L7,7,Director and above,1,7,1.3661875427789185,3
+E0723,2025,1174000.0,Male,3,Data Engineer,2,2023-11-14,2025-06-09,13.1,12,Data & Analytics,L2,2,Analyst,0,2,2.130047912388775,3
+E0726,2025,1582000.0,Male,3,Data Engineer,6,2022-07-08,2025-10-10,9.3,12,Data & Analytics,L6,6,Senior Manager,1,6,3.482546201232033,3
+E0729,2025,1384000.0,Female,1,Engineering Manager,4,2024-05-13,2025-09-24,11.6,12,Engineering,L4,4,Lead,0,4,1.6344969199178645,1
+E0730,2025,913000.0,Female,8,Support Lead,2,2024-10-18,2025-10-27,8.8,16,Customer Support,L2,2,Analyst,0,2,1.2019164955509924,4
+E0732,2025,686000.0,Female,6,Financial Analyst,1,2019-08-29,2025-05-15,9.3,12,Finance,L1,1,Trainee / Associate,0,1,6.3408624229979464,2
+E0734,2025,1607000.0,Male,4,Site Reliability Engineer,5,2024-12-10,2025-09-19,10.2,21,DevOps,L5,5,Manager,1,5,1.056810403832991,3
+E0736,2025,714000.0,Female,4,Platform Manager,1,2024-08-31,2025-02-05,8.6,12,DevOps,L1,1,Trainee / Associate,0,1,1.3333333333333333,4
+E0741,2025,772000.0,Male,5,Recruiter,1,2023-10-22,2025-12-01,1.9,14,Human Resources,L1,1,Trainee / Associate,0,1,2.193018480492813,3
+E0745,2025,1034000.0,Female,6,Financial Analyst,3,2022-03-11,2025-08-26,2.8,16,Finance,L3,3,Senior,0,3,3.808350444900753,3
+E0751,2025,675000.0,Male,3,Data Analyst,1,2018-11-01,2025-01-01,4.5,16,Data & Analytics,L1,1,Trainee / Associate,0,1,7.1649555099247095,3
+E0752,2025,918000.0,Female,5,Recruiter,2,2024-03-25,2025-11-16,11.8,14,Human Resources,L2,2,Analyst,0,2,1.7686516084873374,5
+E0753,2025,941000.0,Female,6,Accountant,2,2024-02-12,2025-04-22,13.2,16,Finance,L2,2,Analyst,0,2,1.8836413415468858,2
+E0756,2025,776000.0,Male,4,DevOps Engineer,1,2021-05-07,2025-12-09,10.4,14,DevOps,L1,1,Trainee / Associate,0,1,4.65160848733744,3
+E0757,2025,834000.0,Male,5,Recruiter,1,2019-01-12,2025-10-29,3.9,18,Human Resources,L1,1,Trainee / Associate,0,1,6.967830253251198,2
+E0758,2025,1012000.0,Female,5,Recruiter,2,2021-04-12,2025-06-12,5.8,12,Human Resources,L2,2,Analyst,0,2,4.720054757015743,5
+E0759,2025,1705000.0,Male,4,DevOps Engineer,6,2025-05-07,2025-11-27,15.3,18,DevOps,L6,6,Senior Manager,1,6,0.6516084873374401,4
+E0767,2025,1784000.0,Male,6,Finance Manager,6,2022-11-13,2025-02-24,10.1,18,Finance,L6,6,Senior Manager,1,6,3.132101300479124,4
+E0768,2025,1822000.0,Male,2,QA Manager,6,2019-09-18,2025-03-28,4.1,14,Quality Assurance,L6,6,Senior Manager,1,6,6.286105407255304,3
+E0770,2025,1233000.0,Male,7,Sales Manager,4,2021-09-28,2025-09-07,5.0,16,Sales,L4,4,Lead,0,4,4.257357973990418,3
+E0771,2025,1114000.0,Male,8,Support Specialist,2,2023-03-14,2025-06-16,5.9,14,Customer Support,L2,2,Analyst,0,2,2.8008213552361396,3
+E0773,2025,703000.0,Female,6,Accountant,1,2018-09-27,2025-09-11,6.5,18,Finance,L1,1,Trainee / Associate,0,1,7.260780287474333,2
+E0774,2025,1815000.0,Female,3,Analytics Manager,7,2023-10-15,2025-06-12,12.6,16,Data & Analytics,L7,7,Director and above,1,7,2.212183436002738,3
+E0775,2025,783000.0,Male,7,Sales Analyst,1,2021-11-23,2025-02-06,3.3,12,Sales,L1,1,Trainee / Associate,0,1,4.1040383299110195,3
+E0779,2025,1262000.0,Other,3,Data Analyst,4,2021-08-21,2025-03-24,8.4,16,Data & Analytics,L4,4,Lead,0,4,4.361396303901437,3
+E0781,2025,1521000.0,Female,2,QA Manager,6,2018-08-20,2025-05-02,7.3,18,Quality Assurance,L6,6,Senior Manager,1,6,7.364818617385352,3
+E0782,2025,841000.0,Male,3,Data Engineer,2,2024-10-03,2025-07-10,6.7,21,Data & Analytics,L2,2,Analyst,0,2,1.242984257357974,3
+E0785,2025,702000.0,Female,5,People Manager,2,2023-09-16,2025-07-25,4.7,18,Human Resources,L2,2,Analyst,0,2,2.291581108829569,3
+E0800,2025,1226000.0,Male,8,Support Manager,4,2025-02-10,2025-06-11,11.3,14,Customer Support,L4,4,Lead,0,4,0.8870636550308009,3

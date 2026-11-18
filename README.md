@@ -70,4 +70,3 @@ All patterns are designed synthetic examples, not findings about a real organiza
 Latest recorded run: **78 passed in 17.73 seconds** using Python 3.14.6. All eight pages render under Streamlit AppTest. Detailed manual browser scenarios remain marked Not run in `docs/13_Test_Cases.docx`.
 
 The public GitHub destination was supplied, but this local repository has not been pushed. The project documents contain student identifiers, so public disclosure has not been approved. No Streamlit Community Cloud URL is available yet.
-

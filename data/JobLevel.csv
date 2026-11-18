@@ -1,0 +1,8 @@
+﻿level_id,level_name,level_rank,display_title,is_leadership,target_women_pct
+1,L1,1,Trainee / Associate,0,0.48
+2,L2,2,Analyst,0,0.45
+3,L3,3,Senior,0,0.43
+4,L4,4,Lead,0,0.4
+5,L5,5,Manager,1,0.38
+6,L6,6,Senior Manager,1,0.35
+7,L7,7,Director and above,1,0.33

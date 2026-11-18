@@ -1,0 +1,45 @@
+{
+  "seed": 42,
+  "row_counts": {
+    "Department": 8,
+    "JobLevel": 7,
+    "Employee": 800,
+    "EmployeeYear": 3019,
+    "ApplicantEvent": 5000
+  },
+  "active_employee_id_count": 500,
+  "exited_employee_id_count": 300,
+  "sqlite_foreign_key_check": "PASS",
+  "range_and_design_checks": "PASS",
+  "joined_view": {
+    "name": "vw_employee_analysis",
+    "rows": 3019,
+    "columns": 33
+  },
+  "quality_review_flags": {
+    "missing_salary_values": {
+      "count": 75,
+      "pct_of_employee_year": 2.48
+    },
+    "missing_performance_ratings": {
+      "count": 75,
+      "pct_of_employee_year": 2.48
+    },
+    "near_duplicate_employee_profiles": 2,
+    "outlier_ids": {
+      "annual_salary_inr": [
+        "E0001"
+      ],
+      "total_experience_years": [
+        "E0799"
+      ]
+    }
+  },
+  "schema_note": "Step 8 has no employee/applicant name or location columns; no such columns were added.",
+  "patterns_to_find": [
+    "Women are less represented at L5-L7 than at L1-L2 (leadership pipeline narrowing).",
+    "Synthetic female salaries average modestly lower than male salaries within comparable roles/levels.",
+    "Female promotion probability is modestly lower among eligible, rated employees.",
+    "Female applicants reach Joined at a lower rate than male applicants."
+  ]
+}
