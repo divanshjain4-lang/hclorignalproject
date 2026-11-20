@@ -1,5 +1,9 @@
 # Gender Diversity Analysis
 
+[▶ **Run the live dashboard on Streamlit**](https://2500320140050-gender-diversity-analysis.streamlit.app/)
+
+> GitHub contains the project files. To use the running dashboard, open the Streamlit link above.
+
 An eight-page Streamlit dashboard for aggregate analysis of representation, recruitment, pay, promotion, attrition and performance in a fictional workforce. All checked-in records are synthetic.
 
 ## Requirements and setup
@@ -70,4 +74,3 @@ All patterns are designed synthetic examples, not findings about a real organiza
 Latest recorded run: **78 passed in 18.03 seconds** using Python 3.14.6. All eight pages render under Streamlit AppTest. Detailed manual browser scenarios remain marked Not run in `docs/13_Test_Cases.docx`.
 
 The public repository is [divanshjain4-lang/hclorignalproject](https://github.com/divanshjain4-lang/hclorignalproject). The Streamlit Community Cloud app is live at [2500320140050-gender-diversity-analysis.streamlit.app](https://2500320140050-gender-diversity-analysis.streamlit.app/). Cloud installed the pinned dependencies under Python 3.14.10. The overview, EDA & Statistics, and Data Quality screens were smoke-checked in the hosted app; local AppTest covers all eight pages. The remaining manual browser scenarios are still marked Not run.
-
